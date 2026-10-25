@@ -4,6 +4,7 @@ data/org.gnome.Calculator.appdata.xml.in
 data/org.gnome.Calculator.desktop.in
 data/org.gnome.calculator.gschema.xml
 lib/currency.vala
+lib/date-calculation.vala
 lib/equation-lexer.vala
 lib/equation-parser.vala
 lib/equation.vala
@@ -25,6 +26,7 @@ src/gnome-calculator.vala
 src/math-buttons.vala
 src/ui/math-converter.ui
 src/math-converter.vala
+src/math-date-dialog.vala
 src/math-display.vala
 src/ui/math-function-popover.ui
 src/math-function-popover.vala

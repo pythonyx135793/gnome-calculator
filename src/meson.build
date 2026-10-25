@@ -3,6 +3,7 @@ gnome_calculator_vala_sources = [
   'gnome-calculator.vala',
   'math-buttons.vala',
   'math-converter.vala',
+  'math-date-dialog.vala',
   'math-display.vala',
   'math-preferences.vala',
   'math-function-popover.vala',

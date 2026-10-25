@@ -21,6 +21,7 @@ public class MathWindow : Hdy.ApplicationWindow
     public MathButtons buttons { get { return _buttons; } }
     private bool right_aligned;
     private bool remove_buttons;
+    private MathDateDialog? date_dialog;
 
     [GtkChild]
     private Gtk.MenuButton menu_button;
@@ -39,6 +40,7 @@ public class MathWindow : Hdy.ApplicationWindow
         { "redo", redo_cb, null, null, null },
         { "mode", mode_cb, "s", "\"basic\"", null },
         { "clear", clear_cb, null, null, null },
+        { "date-calculation", date_calculation_cb, null, null, null },
         { "close",close, null, null, null },
     };
 
@@ -77,6 +79,19 @@ public class MathWindow : Hdy.ApplicationWindow
     private void clear_cb ()
     {
         _display.clear_history ();
+    }
+
+    private void date_calculation_cb ()
+    {
+        var dialog = date_dialog;
+        if (dialog == null)
+        {
+            dialog = new MathDateDialog (this);
+            date_dialog = dialog;
+            dialog.destroy.connect (() => { date_dialog = null; });
+        }
+        dialog.show_all ();
+        dialog.present ();
     }
 
     private void mode_changed_cb ()

@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="dates">
+    <info>
+        <link type="guide" xref="index#conversion"/>
+    </info>
+
+    <title>Date Calculations</title>
+
+    <p>Open <gui>Date Calculation</gui> from the primary menu to compare dates
+    or move forward or backward by a number of days. Enter dates as
+    <code>YYYY-MM-DD</code>, for example <code>2000-02-29</code>.</p>
+
+    <section id="difference">
+        <title>Compare two dates</title>
+        <steps>
+            <item><p>Choose <gui>Between two dates</gui>.</p></item>
+            <item><p>Enter the start and end dates.</p></item>
+            <item><p>Select <gui>Calculate</gui> or press <key>Enter</key>.</p></item>
+        </steps>
+        <p>The elapsed number of days is the end date minus the start date.
+        It is negative when the end date comes first. Leap days count
+        February 29 occurrences from the earlier date up to, but excluding,
+        the later date. Equal dates give zero for both results.</p>
+        <example><p>From <code>2000-02-28</code> to <code>2000-03-01</code>
+        there are 2 elapsed days and 1 leap day. Ending on
+        <code>2000-02-29</code> instead gives 1 elapsed day and 0 leap days.</p></example>
+    </section>
+
+    <section id="offset">
+        <title>Add or subtract days</title>
+        <steps>
+            <item><p>Choose <gui>Add days</gui> or <gui>Subtract days</gui>.</p></item>
+            <item><p>Enter the start date and a whole number of days.</p></item>
+            <item><p>Select <gui>Calculate</gui> or press <key>Enter</key>.</p></item>
+        </steps>
+        <p>The result includes leap days and month and year boundaries.
+        A negative number reverses the operation: adding -1 day is the same
+        as subtracting 1 day.</p>
+        <example><p>Adding 1 day to <code>2000-02-28</code> gives
+        <code>2000-02-29</code>. Subtracting 1 day from
+        <code>2000-03-01</code> gives the same result.</p></example>
+    </section>
+
+    <note><p>Dates use the Gregorian calendar and must be between
+    <code>0001-01-01</code> and <code>9999-12-31</code>. Invalid dates,
+    non-integer day counts and results outside that range display an error.
+    Times of day and daylight-saving changes do not affect these calculations.</p></note>
+</page>

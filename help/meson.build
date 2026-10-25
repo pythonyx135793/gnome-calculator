@@ -9,6 +9,7 @@ gnome_calculator_help_pages = [
   'conv-length.page',
   'conv-time.page',
   'conv-weight.page',
+  'dates.page',
   'equation.page',
   'factorial.page',
   'factorize.page',

@@ -61,6 +61,13 @@ test_serializer = executable('test-serializer', test_serializer_sources,
 )
 test('Serializer test', test_serializer)
 
+test_date_calculation = executable('test-date-calculation', 'test-date-calculation.vala',
+  dependencies: gnome_calculator_tests_deps,
+  link_with: [libcalculator, lib_mpfrg],
+  include_directories: gnome_calculator_tests_includes,
+)
+test('Date calculation', test_date_calculation)
+
 if get_option('ui-tests')
 gci_test_deps = [
 	gee,
