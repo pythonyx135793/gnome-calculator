@@ -22,15 +22,15 @@ public class DateCalculation : Object
                 throw new DateCalculationError.INVALID_DATE (_("Enter a date as YYYY-MM-DD."));
         }
 
-        int year = int.parse (text.substring (0, 4), 10);
-        int month = int.parse (text.substring (5, 2), 10);
-        int day = int.parse (text.substring (8, 2), 10);
+        int year = int.parse (text.substring (0, 4));
+        int month = int.parse (text.substring (5, 2));
+        int day = int.parse (text.substring (8, 2));
         if (year < 1 || year > 9999 || month < 1 || month > 12 || day < 1 || day > 31
             || !Date.valid_dmy ((DateDay) day, (DateMonth) month, (DateYear) year))
             throw new DateCalculationError.INVALID_DATE (_("Enter a valid date between 0001-01-01 and 9999-12-31."));
 
         Date date = Date ();
-        date.set_dmy ((DateDay) day, month, (DateYear) year);
+        date.set_dmy ((DateDay) day, (DateMonth) month, (DateYear) year);
         return date;
     }
 
@@ -82,7 +82,7 @@ public class DateCalculation : Object
     {
         Date date = parse_date (start);
         Date upper = Date ();
-        upper.set_dmy (31, 12, 9999);
+        upper.set_dmy (31, DateMonth.DECEMBER, 9999);
         int64 serial = (int64) date.get_julian ();
         int64 maximum = (int64) upper.get_julian ();
 
