@@ -1,0 +1,2224 @@
+{
+  "repository": "https://github.com/dave90dave/gnome-calculator",
+  "commit": "82eecab48a68b4c446dbd61af306506c9fbee6e7",
+  "tree": "aa5652143277e5e7104dc7e49e530b88b494f212",
+  "files": [
+    {
+      "path": ".gitlab-ci.yml",
+      "mode": "100644",
+      "gitBlob": "18329fb99214ce22498c654ad8dc9c25d09aa6e6",
+      "bytes": 1333,
+      "sha256": "76bfdf809c137929cac7a4b710cf671d959b8552af466f5df4e5b930b0f82855"
+    },
+    {
+      "path": "COPYING",
+      "mode": "100644",
+      "gitBlob": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "NEWS",
+      "mode": "100644",
+      "gitBlob": "811c4044114721ef0dfee9fb62e229a360b29bfa",
+      "bytes": 163329,
+      "sha256": "39dd51edadd77f5c4072f85f54b8c3c3f544cbedca045ef30c33b5cb1c4fe4a9"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "gitBlob": "640e1d912d631c57c7156bf6cd9f0eb60bfcaa5a",
+      "bytes": 738,
+      "sha256": "4cfd339469bc66deb2037df64f5aefb38be378771953c39f4f774d0979dbb5e1"
+    },
+    {
+      "path": "data/gcalccmd.1",
+      "mode": "100644",
+      "gitBlob": "e3a1897bd35761c5db0a7741248a5792864668ad",
+      "bytes": 301,
+      "sha256": "3a2c900535a318cbaa29ef00c74eb9ed2aa407799ee80c01a46b924e48382142"
+    },
+    {
+      "path": "data/gnome-calculator.1",
+      "mode": "100644",
+      "gitBlob": "ffaebd6206316c80a93b3b7e3d1066eb5d0a3f83",
+      "bytes": 637,
+      "sha256": "607a3cb380a6cc9611948c1499a182477f5a10248793a90a48a992c72f2a8162"
+    },
+    {
+      "path": "data/icons/hicolor/scalable/apps/org.gnome.Calculator.Devel.svg",
+      "mode": "100644",
+      "gitBlob": "00b682f039f9f8841c2504d74979ed96250be14e",
+      "bytes": 8192,
+      "sha256": "c3a05ba2e10a61e788be23ccf4a6b36efe48bf111fdaed23d885a71543dddb99"
+    },
+    {
+      "path": "data/icons/hicolor/scalable/apps/org.gnome.Calculator.svg",
+      "mode": "100644",
+      "gitBlob": "1ff7058e2d53868eaed3d5713bb9c4127f40af94",
+      "bytes": 3533,
+      "sha256": "4b54f2e97203f5a980eb9a59c184f921e4cbe466c05c006426795ab4437106d6"
+    },
+    {
+      "path": "data/icons/hicolor/symbolic/apps/org.gnome.Calculator-symbolic.svg",
+      "mode": "100644",
+      "gitBlob": "fb19ff97f3f08537578b14e79af233abd592c19b",
+      "bytes": 1709,
+      "sha256": "4e09bf2e6e1e4e46937743679b88a4c2a44b63f710816b02f791c488f7be9dcd"
+    },
+    {
+      "path": "data/meson.build",
+      "mode": "100644",
+      "gitBlob": "0f85acd3dcaa02ad3664c7c02e357cfe1a423db0",
+      "bytes": 760,
+      "sha256": "aac6d5487202b2eb698a02d03d855a884f437c5c42ac933a95dfe2330c98665b"
+    },
+    {
+      "path": "data/org.gnome.Calculator.appdata.xml.in",
+      "mode": "100644",
+      "gitBlob": "8c4dfd94341efef47a8e7f8724d3e904ff8871f9",
+      "bytes": 27499,
+      "sha256": "d92f6c4288bfec38f62554ca0c199ae0ae5e5039d1940cdd5261e57e343d4e85"
+    },
+    {
+      "path": "data/org.gnome.Calculator.desktop.in",
+      "mode": "100644",
+      "gitBlob": "442031d4527079b884237ba88dd5d43b24d8a7bd",
+      "bytes": 628,
+      "sha256": "b8fe368b1b97b4d7599263ee051adb2a445cc019495d76555d7dc495a363ef1b"
+    },
+    {
+      "path": "data/org.gnome.calculator.gschema.xml",
+      "mode": "100644",
+      "gitBlob": "a3af435fc935b1a532b64e55cd31d0014596a211",
+      "bytes": 3987,
+      "sha256": "7d286319129a85e9b4f7fb7cad3eecd0ff5063887cabd93ce9fb4e6b8ae55929"
+    },
+    {
+      "path": "doc/meson.build",
+      "mode": "100644",
+      "gitBlob": "3523f891a40c54e4e171a494748d7624f215035d",
+      "bytes": 1547,
+      "sha256": "ef09b90afadae83409af56c4be605dff258a60e13b4b5ec71853c9a8bdfa6898"
+    },
+    {
+      "path": "gcalc/gcalc-assign.vala",
+      "mode": "100644",
+      "gitBlob": "6b3a31deac2f47cb1b8e5b7a23868240d1f3c03d",
+      "bytes": 1706,
+      "sha256": "208fbf2ebfa6a11106ddfe4cc02c465e794968369bff642ea76db64432d5f719"
+    },
+    {
+      "path": "gcalc/gcalc-constant.vala",
+      "mode": "100644",
+      "gitBlob": "24ee2561a9b81a2e262f61dfa914600303914c66",
+      "bytes": 4317,
+      "sha256": "7f47ee6e1f5ddfd0f27abcca6f592dfce385d9afdf7bc1d890400ade5c81871e"
+    },
+    {
+      "path": "gcalc/gcalc-division.vala",
+      "mode": "100644",
+      "gitBlob": "b67a3ce9f998c6f3f85c5f1b10cfe14890483179",
+      "bytes": 1024,
+      "sha256": "9167f3422e876ce76af0587d51636d6d56005fceb089e59e32198acefe99b2a2"
+    },
+    {
+      "path": "gcalc/gcalc-equation-manager.vala",
+      "mode": "100644",
+      "gitBlob": "022b469054f2c251f9dc1429a1096119653f6f60",
+      "bytes": 1891,
+      "sha256": "fd84d1e53c98d1e4563a47c5bca07d63a9dcb0358f9c88a83e3a777ebe944a88"
+    },
+    {
+      "path": "gcalc/gcalc-equation.vala",
+      "mode": "100644",
+      "gitBlob": "6e627979a679046a480a212f16a93a9a9f796d64",
+      "bytes": 1445,
+      "sha256": "be5c1c2656e205ed66f7c9483fe43207f1bda01aa9dfa047bfe27f91da8a6afd"
+    },
+    {
+      "path": "gcalc/gcalc-error-result.vala",
+      "mode": "100644",
+      "gitBlob": "6f2c5b3f238985209c5d77bc83c35ef7da2da91e",
+      "bytes": 1363,
+      "sha256": "d9be40206ddb8e5eceb6a9f710f115c3c6aa1c7ad3b8a5986a631dbc3fce09db"
+    },
+    {
+      "path": "gcalc/gcalc-expression-container.vala",
+      "mode": "100644",
+      "gitBlob": "dc15120705aeb09e93e7eec8386cf2c25d0bcf49",
+      "bytes": 2466,
+      "sha256": "a09670d020679922066ce3a3dbda70fa11189fec7d38a2a115194279b8497dad"
+    },
+    {
+      "path": "gcalc/gcalc-expression-hash-map.vala",
+      "mode": "100644",
+      "gitBlob": "6ea934da5b1809bc40a68cdf4aa312514fd52cf6",
+      "bytes": 1332,
+      "sha256": "e8f2d99aadcc5635148f56473e4f5d031f2d100660ff9df1ebc6da27f8b70ed6"
+    },
+    {
+      "path": "gcalc/gcalc-expression.vala",
+      "mode": "100644",
+      "gitBlob": "77ce72a5a6efea79b736be8f8b3c4db0b1a5d18e",
+      "bytes": 1527,
+      "sha256": "fbfdd7941d8b190c609132172ea102838f42571f31ee54345edf21d30959650e"
+    },
+    {
+      "path": "gcalc/gcalc-function-acos.vala",
+      "mode": "100644",
+      "gitBlob": "c314401d2a74df7cb7bd5b905925f6ba27b0f31f",
+      "bytes": 1940,
+      "sha256": "55ba72db7ba49a25847fb1c7a6a3a43d9eb99a03b53381f4a7d7a5dbb3b01a87"
+    },
+    {
+      "path": "gcalc/gcalc-function-acosh.vala",
+      "mode": "100644",
+      "gitBlob": "495186366ea338f7076281a28859b167b334b544",
+      "bytes": 1954,
+      "sha256": "7b80abfd20fd9342d3f67796ec47a3382ebf6ca7edfcb8b8006c9813c357cb30"
+    },
+    {
+      "path": "gcalc/gcalc-function-asin.vala",
+      "mode": "100644",
+      "gitBlob": "cbcce6d1e87b193428531a388f65fa28986aaf08",
+      "bytes": 1938,
+      "sha256": "536387b2689d944f07560583f7e868319b9ff140025f7dd1f39d1303b9b55acd"
+    },
+    {
+      "path": "gcalc/gcalc-function-asinh.vala",
+      "mode": "100644",
+      "gitBlob": "1d3649fe806e5ce35d2c28d4a2fbec88cd034b03",
+      "bytes": 1952,
+      "sha256": "c2f025680a4363c1347fa7645b5e22ebc489023cef1eacd55a88f7fb0867ddb6"
+    },
+    {
+      "path": "gcalc/gcalc-function-atan.vala",
+      "mode": "100644",
+      "gitBlob": "7d4e4e8fc5e04f8feeb14089ab8dbb3a31ee5d45",
+      "bytes": 1940,
+      "sha256": "96b2d24e3160f7cf44c2dae80b43802695e0c769ab844fad1c39b22bab69762e"
+    },
+    {
+      "path": "gcalc/gcalc-function-atanh.vala",
+      "mode": "100644",
+      "gitBlob": "d7a36e519dbc57a0b01153018460a875f524b494",
+      "bytes": 1955,
+      "sha256": "6b0a80ef7b2f73acd95ca5f9047b542db73d590a2436e101d52cb4c1ba06f6a5"
+    },
+    {
+      "path": "gcalc/gcalc-function-cos.vala",
+      "mode": "100644",
+      "gitBlob": "74c506f1d4a85edac9e4fcf2e87b62c101177b70",
+      "bytes": 1932,
+      "sha256": "2ceb1a67ddeb320dfa591cc40e5db416456f096420c0e616526d9b03bd3c45dc"
+    },
+    {
+      "path": "gcalc/gcalc-function-cosh.vala",
+      "mode": "100644",
+      "gitBlob": "17392336cee0b3e123c039a12206c9f6410ab841",
+      "bytes": 1946,
+      "sha256": "4278d889341c9a996e597d19f7bd73b59a87e591ea296c788507e1117b5235be"
+    },
+    {
+      "path": "gcalc/gcalc-function-exp.vala",
+      "mode": "100644",
+      "gitBlob": "e6b135162bd193511ec3354d979d2ef9ac9af5af",
+      "bytes": 1936,
+      "sha256": "59264d0c04ba45432559437b8f4d2285fe37bf53c55d7461c7d2a7c1ea8e0244"
+    },
+    {
+      "path": "gcalc/gcalc-function-log.vala",
+      "mode": "100644",
+      "gitBlob": "8bc0528800601f53fa62169df94961167d1941dd",
+      "bytes": 1924,
+      "sha256": "8063cb10b261158011c8afe44f7729b0e6e9fa2992bb5191b5ba3fd4ea73f290"
+    },
+    {
+      "path": "gcalc/gcalc-function-sin.vala",
+      "mode": "100644",
+      "gitBlob": "76ad7499a257c069ef7c32c2304cdfa4c2584860",
+      "bytes": 1930,
+      "sha256": "9323e15b3af6bc391d4a2051747b6fe063a09e914ff4626bb8596686e2ab1c8e"
+    },
+    {
+      "path": "gcalc/gcalc-function-sinh.vala",
+      "mode": "100644",
+      "gitBlob": "aa33d298c959cc7f5ca8c2091a9b901473db1b06",
+      "bytes": 1944,
+      "sha256": "af07d6c594947a7cbaf5fc1a2ac9b78d9f96e9326775301c4059b0951adad151"
+    },
+    {
+      "path": "gcalc/gcalc-function-sqrt.vala",
+      "mode": "100644",
+      "gitBlob": "4b7ed0a3e4ee9758a4774d5c0e81f58d05f9e4ac",
+      "bytes": 1929,
+      "sha256": "60645100923ee43e743e8fe4534ca061289d2d2ac69c81cc0e03b9168c769ee5"
+    },
+    {
+      "path": "gcalc/gcalc-function-tan.vala",
+      "mode": "100644",
+      "gitBlob": "5d13e2769f1cd7c1d2ba58bd73653108321b0883",
+      "bytes": 1933,
+      "sha256": "8c24aeef1d08171a85338d1df922003f817c1305950036f453ec69ac0b4a7f8d"
+    },
+    {
+      "path": "gcalc/gcalc-function-tanh.vala",
+      "mode": "100644",
+      "gitBlob": "17cd75e6b7f689e681b253e8dd6296bedbf38523",
+      "bytes": 1938,
+      "sha256": "77ca8b06a4b35650e3a1a6f7483363c637cb043677e09a709e3a419dc32f0e53"
+    },
+    {
+      "path": "gcalc/gcalc-function.vala",
+      "mode": "100644",
+      "gitBlob": "d0b26314890f7e21a18b8f3e82cd595a11e89cfe",
+      "bytes": 1906,
+      "sha256": "d876994b7b5930e8903d3a45d004e81c8770d10733799e03211762b7a2e16b11"
+    },
+    {
+      "path": "gcalc/gcalc-group.vala",
+      "mode": "100644",
+      "gitBlob": "6d948d130a070dbf5dceb4f9d9c112c13bd3b1b9",
+      "bytes": 1510,
+      "sha256": "8d6f0219099864868a12ae9d48873ebd66ada17ed407e9f4d9351dd57738a6fa"
+    },
+    {
+      "path": "gcalc/gcalc-hashable.vala",
+      "mode": "100644",
+      "gitBlob": "48d1837fb5e744c8234789f0ff71cb3366157c29",
+      "bytes": 1059,
+      "sha256": "61bfd1d6e38d9a3f5aa6d1afee331bc0eb05586cfacba73a5282ffab9e4e6a4e"
+    },
+    {
+      "path": "gcalc/gcalc-math-assign.vala",
+      "mode": "100644",
+      "gitBlob": "a84fa9dfde0fae732af929b15de6a5136af7a9d7",
+      "bytes": 1938,
+      "sha256": "0e7e99dac45c7f586d73cd7b66921107f9197cea7acccf2cf04d18bc3d25eab8"
+    },
+    {
+      "path": "gcalc/gcalc-math-binary-operator.vala",
+      "mode": "100644",
+      "gitBlob": "9b31e5cb4f666f0e25c871e7ea7c918adc802146",
+      "bytes": 972,
+      "sha256": "99ce90ae094641d6067c6b530c426069d7492870351205e13a275b834d1a1529"
+    },
+    {
+      "path": "gcalc/gcalc-math-constant-complex.vala",
+      "mode": "100644",
+      "gitBlob": "7308e1861a36735e0fc13e921a5239ce1bddea73",
+      "bytes": 1262,
+      "sha256": "0f3ea9f765f9e395251795aebc96c30cca0859de5d51ba2488ccd9428c90af66"
+    },
+    {
+      "path": "gcalc/gcalc-math-constant-number.vala",
+      "mode": "100644",
+      "gitBlob": "e66c51e4d2e36568eee1d4b3d20339920b02f7f1",
+      "bytes": 1050,
+      "sha256": "fb3cbedfec757600e4bafb40bf309d450b59bde36e491efa6bb334df893714b7"
+    },
+    {
+      "path": "gcalc/gcalc-math-constant.vala",
+      "mode": "100644",
+      "gitBlob": "be141bbf63de0800701a5dc28a18656082a353b2",
+      "bytes": 1740,
+      "sha256": "fc2bbcf995d3f1bbe19bf02e15d0339b001592b8688452280661e2bd9bdd665d"
+    },
+    {
+      "path": "gcalc/gcalc-math-division.vala",
+      "mode": "100644",
+      "gitBlob": "6750656d63992da2992a1f293023777367998327",
+      "bytes": 971,
+      "sha256": "88f4c4678c3b69982167c825036e51f97ed286c489c87906d37d7f8a7bc0cc4c"
+    },
+    {
+      "path": "gcalc/gcalc-math-equation-manager.vala",
+      "mode": "100644",
+      "gitBlob": "dede74d7f18cbd99092a351eaf7293a9e50fff32",
+      "bytes": 3402,
+      "sha256": "f6a47da6a71daf9897c464e0800f838c13a02cc833c435a2dded59948cdf90db"
+    },
+    {
+      "path": "gcalc/gcalc-math-equation.vala",
+      "mode": "100644",
+      "gitBlob": "a45a90958a8a4eaff74031485acd77ef2c0fbff1",
+      "bytes": 1057,
+      "sha256": "3786a1ab460934671a857311065dcc8290932c232b654f71aaf71c03e468966a"
+    },
+    {
+      "path": "gcalc/gcalc-math-error-result.vala",
+      "mode": "100644",
+      "gitBlob": "f8fe2db410c0fbae1f6b482f04cdbb238f459f37",
+      "bytes": 1010,
+      "sha256": "b94585c62b136364c07a252c42830bbe45245a240b78e7c7a1c69d1e73f5d83a"
+    },
+    {
+      "path": "gcalc/gcalc-math-expression.vala",
+      "mode": "100644",
+      "gitBlob": "9beabc4117b867172f7b980280f9ad72804b39c3",
+      "bytes": 1324,
+      "sha256": "3f2e688bbfe37792b3792ed62dacf4ca47ecf8409e708fc11f10bbf7fb21cd80"
+    },
+    {
+      "path": "gcalc/gcalc-math-function.vala",
+      "mode": "100644",
+      "gitBlob": "7e868337c44013d6235b6aa8fcff03e954e65808",
+      "bytes": 2314,
+      "sha256": "5cb847e6c48c3c868ed6f3270d89a1b4f7d422e7f046813c56952ff0dc663638"
+    },
+    {
+      "path": "gcalc/gcalc-math-group.vala",
+      "mode": "100644",
+      "gitBlob": "b24fab9ec332d6b4a9c6f98891a0979ab8582c88",
+      "bytes": 1567,
+      "sha256": "af107629f9b03bf10491ae3a87352d42d6e21b2287502a10d7974298fee86779"
+    },
+    {
+      "path": "gcalc/gcalc-math-minus.vala",
+      "mode": "100644",
+      "gitBlob": "1125ff0b5f8683e9dfd7a329158007b2b7d05423",
+      "bytes": 962,
+      "sha256": "1696eff2286123180ca24da7cf571b9fb93f9a9d39989f546955d39c9352b405"
+    },
+    {
+      "path": "gcalc/gcalc-math-multiply.vala",
+      "mode": "100644",
+      "gitBlob": "77caef8a44c93f3cd4a6d432d08d842b02816de0",
+      "bytes": 971,
+      "sha256": "4f5a69aba13d41afdef205c052a24bcdccdbfbde2e2b80c31b5ede66b17b1913"
+    },
+    {
+      "path": "gcalc/gcalc-math-operator.vala",
+      "mode": "100644",
+      "gitBlob": "333ef88498a19c65a4c491186101d61f407a36ba",
+      "bytes": 929,
+      "sha256": "f88cf2607dc309f5465c1f4bc45243ddb494bd050bf2b538138d2cf1ec26f64a"
+    },
+    {
+      "path": "gcalc/gcalc-math-parameter.vala",
+      "mode": "100644",
+      "gitBlob": "692d9df963a2592ac8de84a4dc5b62b10b8e061f",
+      "bytes": 1282,
+      "sha256": "c9047dd762cbaafffed3282fd1edd1f7caf10566c3e0497697df780ae6e88630"
+    },
+    {
+      "path": "gcalc/gcalc-math-plus.vala",
+      "mode": "100644",
+      "gitBlob": "f2172782f714fe052d48d8a442d25bf41eeccbb4",
+      "bytes": 959,
+      "sha256": "34ecb30db0c7ee577b60ec25c1df959b46a3c98be3a6c1d70d1a8254f79f9b60"
+    },
+    {
+      "path": "gcalc/gcalc-math-polynomial.vala",
+      "mode": "100644",
+      "gitBlob": "95065439181e591a766bc9a0f665bc9b689cc3eb",
+      "bytes": 2005,
+      "sha256": "7a9ca50cff39089ce32ed74bbaa3e54099d3934b396206c9fdb749937ea807fb"
+    },
+    {
+      "path": "gcalc/gcalc-math-pow.vala",
+      "mode": "100644",
+      "gitBlob": "7fdfbfbb6ce578f5a21c186c87f9f00de358d755",
+      "bytes": 936,
+      "sha256": "64731ff48076f2d9bb0b67212965e2114eba5f1227b72b7a711b407e49f2bfbd"
+    },
+    {
+      "path": "gcalc/gcalc-math-result.vala",
+      "mode": "100644",
+      "gitBlob": "7b2c823479fc3bc176c0e8c6da9f6916078d05ea",
+      "bytes": 1025,
+      "sha256": "36c6ff223773dca2d0f1ffe92b788466c398d96abecc07680e8943c4ccd3a4ac"
+    },
+    {
+      "path": "gcalc/gcalc-math-term.vala",
+      "mode": "100644",
+      "gitBlob": "fab1a7dc859760d355c869bad9129a5bcde62b6d",
+      "bytes": 4499,
+      "sha256": "24f22e43921a5be3ca4ac42306a858a432dbbf33664587933eda91c69d65fb89"
+    },
+    {
+      "path": "gcalc/gcalc-math-variable.vala",
+      "mode": "100644",
+      "gitBlob": "3dd35905aa2f62dc8eb9fa90b61473a1599e9002",
+      "bytes": 2400,
+      "sha256": "ed1f4db933ff931f85d565c621b0415232896b0b4848a0c96fd67c2c5feffb7c"
+    },
+    {
+      "path": "gcalc/gcalc-minus.vala",
+      "mode": "100644",
+      "gitBlob": "990d2c5d6035de23f98f4d55a6fa69648a765a04",
+      "bytes": 1012,
+      "sha256": "7cd66aeead0a89e9bc4b33b745554c29289ce2ab5bba94e3a09313948c3943dd"
+    },
+    {
+      "path": "gcalc/gcalc-multiply.vala",
+      "mode": "100644",
+      "gitBlob": "f616d38099406e6af0d807f9483e6bda0c217639",
+      "bytes": 1024,
+      "sha256": "f5ef1bbfba82958784187dc20ec3ea26af028c96da6bd150b4efb781675c4a7c"
+    },
+    {
+      "path": "gcalc/gcalc-parameter.vala",
+      "mode": "100644",
+      "gitBlob": "9a17f76e5f81b3adf9240e47c2add99df296d112",
+      "bytes": 1912,
+      "sha256": "d8654cdbb6ea651b45d412e02ae432f0a02a27676fcd8fe42d1bd36165f75aa4"
+    },
+    {
+      "path": "gcalc/gcalc-parser.vala",
+      "mode": "100644",
+      "gitBlob": "82bff0ce0d5109d296816f425d40709f328b97dd",
+      "bytes": 18943,
+      "sha256": "ff2039736901715ce176b0adc87fa80b09e5ec2c3563bbd3b7c41db47a0e9cbd"
+    },
+    {
+      "path": "gcalc/gcalc-plus.vala",
+      "mode": "100644",
+      "gitBlob": "d23acadc55170766dfe3a6d69c4957d2fd80cccb",
+      "bytes": 1008,
+      "sha256": "99ee8fce52e4bcd7d893a2e2589b81700dcda37cb570a276e28e823939779d7b"
+    },
+    {
+      "path": "gcalc/gcalc-polynomial.vala",
+      "mode": "100644",
+      "gitBlob": "5a290d518b3cdd1b0ea72d438509b76ac2c5adf2",
+      "bytes": 1224,
+      "sha256": "abf2969e0c8b18faee3c3f8532db3581a773169700f701cc9861095754892f9f"
+    },
+    {
+      "path": "gcalc/gcalc-pow.vala",
+      "mode": "100644",
+      "gitBlob": "ae2ca04dbc555e8f3e969f1ffc50da72c4190e3b",
+      "bytes": 984,
+      "sha256": "f5fdd4f8f2877a16b880a06f393c229d8c3471f7679e6116404f8541508e12fe"
+    },
+    {
+      "path": "gcalc/gcalc-result.vala",
+      "mode": "100644",
+      "gitBlob": "140150341b79b33399635b55d77543835e44cb59",
+      "bytes": 1174,
+      "sha256": "f24b0288a4d06f7593ede9b475589dc9fce1c80b4053953d229d1280c703b81b"
+    },
+    {
+      "path": "gcalc/gcalc-solver.vala",
+      "mode": "100644",
+      "gitBlob": "25bb0db21b28c9a25e067ce11d36b650b709a89d",
+      "bytes": 2435,
+      "sha256": "8fbc04e37c8ecdbe6df55c7b2e0ec602fb891eb556b8b27ba373e73bfcd061bf"
+    },
+    {
+      "path": "gcalc/gcalc-term.vala",
+      "mode": "100644",
+      "gitBlob": "410a3898d4e33f3f6149f836eba2f5d0552710c3",
+      "bytes": 1197,
+      "sha256": "fe29f145dca4d7ef0afd5c5fd524980dac6f1367948196f7219060519fb77c50"
+    },
+    {
+      "path": "gcalc/gcalc-variable.vala",
+      "mode": "100644",
+      "gitBlob": "c46b2705578979e6c37fb3cd7e5b38244bd7e1c5",
+      "bytes": 1319,
+      "sha256": "e22d23efc33bd117b8518a6237a2d7a106117a4f6ccc27f2b557e164eed661cf"
+    },
+    {
+      "path": "gcalc/gcalc.deps.in",
+      "mode": "100644",
+      "gitBlob": "773dede3588f672245d144505c54a45f423e3576",
+      "bytes": 16,
+      "sha256": "e870e0b54cfa68d0bdcd52d3e3cdbc49fe2848f568ba4b0e26328a581079b342"
+    },
+    {
+      "path": "gcalc/gcalc.pc.in",
+      "mode": "100644",
+      "gitBlob": "6d91e918705d741bdaeaa5cf23e15bb2eac736aa",
+      "bytes": 339,
+      "sha256": "867319d00501714661d6b5b8f2277c5b47424ce25fce7f3433da4883d91bf7a4"
+    },
+    {
+      "path": "gcalc/meson.build",
+      "mode": "100644",
+      "gitBlob": "a786db86410311cb1851b7a02b5421a905abb994",
+      "bytes": 5508,
+      "sha256": "bac3582dcd6c2449abff67b71144101fbe397344207e0f116990b4cdf9249ab0"
+    },
+    {
+      "path": "gcalc/mpfr-glue.vala",
+      "mode": "100644",
+      "gitBlob": "9e801748fd0aa8885463d387200968c35fbe0d93",
+      "bytes": 914,
+      "sha256": "3c77095a08c87a69a602425f0875bb6ddc73d936816626adc3d709f6a4381737"
+    },
+    {
+      "path": "gcalc/namespace-info.vala.in",
+      "mode": "100644",
+      "gitBlob": "01b7b8643fb3a06ee867ea93ff7a2770f805642a",
+      "bytes": 1084,
+      "sha256": "6846bfbd29354549b87f536d47d0ef80d5559cde0cd16850d03c9c131ba09a1c"
+    },
+    {
+      "path": "gci/gci-entry-controller.vala",
+      "mode": "100644",
+      "gitBlob": "58cb73199b2f4df601cfdcb7cec5ca3de6591ed0",
+      "bytes": 2485,
+      "sha256": "24cec3f1195f9d893ea4aca52a243ac0cbc60d5f889e60bfc40d8a6c84f39549"
+    },
+    {
+      "path": "gci/gci.deps.in",
+      "mode": "100644",
+      "gitBlob": "5adb695ee449eef15796ba27af8e2de4f67ee8b5",
+      "bytes": 17,
+      "sha256": "cc9fa2de8be71fcb0cd72fccfcd00ef061b033a45f462059743f0fb58db88307"
+    },
+    {
+      "path": "gci/gci.pc.in",
+      "mode": "100644",
+      "gitBlob": "15e94644be06f1f57e9092911fc5c28e03dc722a",
+      "bytes": 351,
+      "sha256": "d4a44e81b32fb5014ba9ddfdb64fff4b400dab9d54710268868fa586f3047638"
+    },
+    {
+      "path": "gci/meson.build",
+      "mode": "100644",
+      "gitBlob": "5b270d53d942b36f13f3db5effc4eb8d1802e3f4",
+      "bytes": 3560,
+      "sha256": "ea9d39f178cd80f4bae8fe1d97c5732ed05096deaf2305f876a737b8a80237e5"
+    },
+    {
+      "path": "gci/namespace-info.vala.in",
+      "mode": "100644",
+      "gitBlob": "e539779fea2c1395764c748b03f30508f32f7ddb",
+      "bytes": 1078,
+      "sha256": "8a7031e69a8654563cfc0daaaead383d13d81cf2639d54f57e905feeff4403d7"
+    },
+    {
+      "path": "gnome-calculator.doap",
+      "mode": "100644",
+      "gitBlob": "b8a3209508e055a06b9e44d99971c2f228a92f85",
+      "bytes": 1914,
+      "sha256": "e1057a2d8d62ce021ada6341a01f431cb76e1c55d35ad8b0c755f9b80234509d"
+    },
+    {
+      "path": "help/C/absolute.page",
+      "mode": "100644",
+      "gitBlob": "d954b7e5989b8dd6bdfb5d5433801e52fd899e6a",
+      "bytes": 412,
+      "sha256": "7360305f8d816946bc341c396f9f4bd17f4a409b4c87d47dfd7ae115e66acfd2"
+    },
+    {
+      "path": "help/C/base.page",
+      "mode": "100644",
+      "gitBlob": "614c679b27b71cf06ebb3c7a5653315c60f9ec6d",
+      "bytes": 1117,
+      "sha256": "2f913042cf9fc51fa07d3900bf014df8e51e1b5316ac2cac19de24d89774e011"
+    },
+    {
+      "path": "help/C/boolean.page",
+      "mode": "100644",
+      "gitBlob": "0e76a0764f3a0e70c0b3e59a288e2559916ba9a5",
+      "bytes": 782,
+      "sha256": "a0d937cd89074feb7d6f4185d69a2b1f832123109e9b3a54fc552e74d8dfe828"
+    },
+    {
+      "path": "help/C/complex.page",
+      "mode": "100644",
+      "gitBlob": "163858785df40b50b87dc7e70c71581d1f1795bc",
+      "bytes": 1165,
+      "sha256": "96c7039900ecf3ce883fbbfdb394af4cfabf02cb5cffa0b6874ef2318f492883"
+    },
+    {
+      "path": "help/C/conv-base.page",
+      "mode": "100644",
+      "gitBlob": "0d1171b6a2ae2ce22427e4dbe55f29b3f5a2caaa",
+      "bytes": 580,
+      "sha256": "e3c461e457486eb07db0bf55b849a72d8f2de30af45910b9bf243875af0e66ff"
+    },
+    {
+      "path": "help/C/conv-character.page",
+      "mode": "100644",
+      "gitBlob": "790b137646e1d44cf0051b90b89ea212d4e608aa",
+      "bytes": 463,
+      "sha256": "1d61d8f18585e5e5523dfe966750150e3bd38ed1744e8180d265355b2de4f73d"
+    },
+    {
+      "path": "help/C/conv-currency.page",
+      "mode": "100644",
+      "gitBlob": "71a5a2200bad33c85871c5a6e54065665133f25f",
+      "bytes": 1282,
+      "sha256": "3ab8743108d6185c108512cd82806a434189ecce975223dcc1e317f8cb431ff3"
+    },
+    {
+      "path": "help/C/conv-length.page",
+      "mode": "100644",
+      "gitBlob": "d51380baf3960d76c3905851efea359cc8147476",
+      "bytes": 566,
+      "sha256": "c2432d9044ddcdf6677b6660758c73292315ba8107b891c29f1d8458757c9a89"
+    },
+    {
+      "path": "help/C/conv-time.page",
+      "mode": "100644",
+      "gitBlob": "3779c96c4d919e16e3311c5674fb71d7e0b72cf2",
+      "bytes": 439,
+      "sha256": "432ae4a12b8bf2868accc31e037f86efe89f77f11bf37fc513439f0b6a0940a0"
+    },
+    {
+      "path": "help/C/conv-weight.page",
+      "mode": "100644",
+      "gitBlob": "fa5e0d4c54a196186320b575ef76d2edc2cd70ff",
+      "bytes": 438,
+      "sha256": "d78bd7ca06cdc48188f315a596113f5f6a737a7828bd983395eb904ce6446369"
+    },
+    {
+      "path": "help/C/equation.page",
+      "mode": "100644",
+      "gitBlob": "84ca1e9e682f9d9a728c80e8faeb5cabddf80e0f",
+      "bytes": 1160,
+      "sha256": "a238c0bfb612308374816cea1233b0716fdd0543f58090c7409651399b3817cf"
+    },
+    {
+      "path": "help/C/factorial.page",
+      "mode": "100644",
+      "gitBlob": "ec909064ad4e13a007fca56654e1cdcbc7d81476",
+      "bytes": 376,
+      "sha256": "7aa3d945f8373c24fcb32ac62dc6fbacc392b042b9a3c988805ca292d8a68306"
+    },
+    {
+      "path": "help/C/factorize.page",
+      "mode": "100644",
+      "gitBlob": "4094d6082ca160eee21e6951f9d4a064c80b21bb",
+      "bytes": 389,
+      "sha256": "a3ed33f7a76ceda93a826d981c62acfd97e901f6d2ed404f81262dc80d9f3d55"
+    },
+    {
+      "path": "help/C/figures/org.gnome.Calculator.svg",
+      "mode": "100644",
+      "gitBlob": "0c06c96e38b0371c43d1831ef67b46ebc1abd5b7",
+      "bytes": 3224,
+      "sha256": "4844f2ccb011136775ef12c3e6af98121158d24465e816336476cdb52f236b3e"
+    },
+    {
+      "path": "help/C/financial.page",
+      "mode": "100644",
+      "gitBlob": "d410700a27ec0d48218d62c3bac4e89f9e18157b",
+      "bytes": 2804,
+      "sha256": "f59c97f41004176c875c5fb56f68b728aee6a98c07061af0e84f50606530f7c7"
+    },
+    {
+      "path": "help/C/functions.page",
+      "mode": "100644",
+      "gitBlob": "26b8fe02178eadba005222a29b9a584b9d60167c",
+      "bytes": 3949,
+      "sha256": "5324a9b19c5704d66ada272495907fca73bd3021c639eca113f39e014f94fdd1"
+    },
+    {
+      "path": "help/C/history.page",
+      "mode": "100644",
+      "gitBlob": "8d26ae8e5a2dc0759ba36cee718edb32019f80d0",
+      "bytes": 1464,
+      "sha256": "b0ab875aa8767107e53b9f313c8bff082a1083d2fa1df0f17e808de0f7041122"
+    },
+    {
+      "path": "help/C/index.page",
+      "mode": "100644",
+      "gitBlob": "b6970a6cb2421d56470f3864392b0e90b0c8cf31",
+      "bytes": 955,
+      "sha256": "629f253c60e20dac6e28f40a0ad795299849bd6b107b0c522cc3a158c817ed86"
+    },
+    {
+      "path": "help/C/keyboard.page",
+      "mode": "100644",
+      "gitBlob": "c646978a818995b20716cad93c5c981333dd89f9",
+      "bytes": 1338,
+      "sha256": "310af8480b985e3921f0b8523dcdc5f92536e59958b3cd3310818ba81a5dcabd"
+    },
+    {
+      "path": "help/C/legal.xml",
+      "mode": "100644",
+      "gitBlob": "86d6173ad0ab6f3c061641a0fe7c6597d5e3b298",
+      "bytes": 494,
+      "sha256": "c4a01afc7c599c1de6b0973eceffd80f5f80ee3e1d753d4b1a7385cb3402bf6c"
+    },
+    {
+      "path": "help/C/logarithm.page",
+      "mode": "100644",
+      "gitBlob": "640065d3ec6d29fc324717f74d414867d5fac0e7",
+      "bytes": 859,
+      "sha256": "6631749ee02997ff63211a64c2ec56cd59e08cda3eb5edbe17a75b4d32938d6f"
+    },
+    {
+      "path": "help/C/mode-programming.page",
+      "mode": "100644",
+      "gitBlob": "989f41becb2b92de534baeaf3e51f3e8ea530af5",
+      "bytes": 1642,
+      "sha256": "657701487d53b1d6ec8db8fd8479632058642ca6fa9207b22366c52c453a9d71"
+    },
+    {
+      "path": "help/C/modulus.page",
+      "mode": "100644",
+      "gitBlob": "b95823f42ad17e632a7eb97924ab75af88eb8ffa",
+      "bytes": 339,
+      "sha256": "17e1dd32410445a4ddc0512dfb7f8033ec6e9e375501ad099c7ad0eedbd53c5c"
+    },
+    {
+      "path": "help/C/mouse.page",
+      "mode": "100644",
+      "gitBlob": "d5c527af16e8ebd5d81a7c4be6eac86b5fcb231d",
+      "bytes": 963,
+      "sha256": "d5db1074d102b3743c0aaea514338253a2f096599107b744fc31e41a6a296da7"
+    },
+    {
+      "path": "help/C/number-display.page",
+      "mode": "100644",
+      "gitBlob": "07ae20234062a0f0c055a435b375804ab0d18612",
+      "bytes": 1211,
+      "sha256": "7cca06cf04240a7fe42ae71e27ef8987a77353a10757dceec25412253bb8fed7"
+    },
+    {
+      "path": "help/C/percentage.page",
+      "mode": "100644",
+      "gitBlob": "61b2423772b0e61ef6565337bd97434c1b530f4b",
+      "bytes": 802,
+      "sha256": "ec1ab54ec67f951fe9a42334b82a1b8ff17624cc23f45df7f85a4b1def548eec"
+    },
+    {
+      "path": "help/C/power.page",
+      "mode": "100644",
+      "gitBlob": "241c20904ba0a40029a9b2c866648d76a7514ce9",
+      "bytes": 1616,
+      "sha256": "5cd5119547e895afd5ab22851279fb683545f7d67064bf88d200ffc3851554d3"
+    },
+    {
+      "path": "help/C/scientific.page",
+      "mode": "100644",
+      "gitBlob": "853eda8777bd3e4f953d10632ced3bfdbd1078a1",
+      "bytes": 964,
+      "sha256": "f9e87b78b3110536081eede48865fc9448a120b5068a065fd71257561b974aa3"
+    },
+    {
+      "path": "help/C/superscript.page",
+      "mode": "100644",
+      "gitBlob": "f7e1f20b72ae4eeee91b567b8bae19f697d62284",
+      "bytes": 1420,
+      "sha256": "c1379684391ea63081de137105eab5d8915e8c30e7b481fb06b0d2e61b803eab"
+    },
+    {
+      "path": "help/C/trigonometry.page",
+      "mode": "100644",
+      "gitBlob": "601f83809ef7c1e508c7c314aa1f3eda8709d415",
+      "bytes": 1237,
+      "sha256": "76bd6c55c3082bcfa33472721abf37f9f2c52004c0fa552f509aa8e599dd7b87"
+    },
+    {
+      "path": "help/C/variables.page",
+      "mode": "100644",
+      "gitBlob": "a4492032bb7c7ef16ad18e1018429d9a4836716b",
+      "bytes": 1397,
+      "sha256": "a75b1ff33495469ffd36872049a3631ef7af6b4cffb5a3fc90edb34adb79cb1c"
+    },
+    {
+      "path": "help/LINGUAS",
+      "mode": "100644",
+      "gitBlob": "0c729630582b3d4b4465ad34886f8b22fba7119b",
+      "bytes": 148,
+      "sha256": "db5c2e7055b429f74d2d78bf0e9e782dd48fcdddce30959d2cf9ae351588dd2c"
+    },
+    {
+      "path": "help/bg/bg.po",
+      "mode": "100644",
+      "gitBlob": "80de275e777c623e3e5882995f9c3a4d347d50b1",
+      "bytes": 166686,
+      "sha256": "e993013522259c0a1857645e57f568d3517c840dff0ab044802faeb094d06148"
+    },
+    {
+      "path": "help/ca/ca.po",
+      "mode": "100644",
+      "gitBlob": "6b9f94b6866ff965ce10df4b9581c4df86b52d61",
+      "bytes": 51088,
+      "sha256": "0aedd9a5ff66d0a203e503a42bc3773b2e47e412f83dca26bf0bfce190218481"
+    },
+    {
+      "path": "help/cs/cs.po",
+      "mode": "100644",
+      "gitBlob": "8b74991115504196f3e924bc09212babf0ecfe88",
+      "bytes": 50593,
+      "sha256": "2646cad63ed83529cc75f84f23fc2a3a436e2b99f0b8a2661ba78fdefd018cf0"
+    },
+    {
+      "path": "help/da/da.po",
+      "mode": "100644",
+      "gitBlob": "b94c75b87fc99339c1ff38c524be1468b6eddff0",
+      "bytes": 50261,
+      "sha256": "9e59aecbe4edb646df92eca8a6ca997cf3bc49299c3d689f924ef3135e99d43a"
+    },
+    {
+      "path": "help/de/de.po",
+      "mode": "100644",
+      "gitBlob": "d569319db08d9c9d58eba5225bfe6946c6bbc629",
+      "bytes": 55677,
+      "sha256": "9609409537a5c059d65a256ae868a5f9327eb10b0b65f80737772e4e520a49f8"
+    },
+    {
+      "path": "help/el/el.po",
+      "mode": "100644",
+      "gitBlob": "a333a80858dbcd88eb3b5b9644344191264ce247",
+      "bytes": 62374,
+      "sha256": "3050db86c2ed0ace0e12b110f0778c0de19efd03ac420a46c8c0aec8cda78eeb"
+    },
+    {
+      "path": "help/es/es.po",
+      "mode": "100644",
+      "gitBlob": "ffc6add17eb20ce48c3b8d4b0fdfcdad64bf4c93",
+      "bytes": 55405,
+      "sha256": "3dc0aec0ddcac93c4fbf415f7ed7b81a07a25cda54932501cba0f6bd6391cb88"
+    },
+    {
+      "path": "help/eu/eu.po",
+      "mode": "100644",
+      "gitBlob": "a2b374a7fafda950b4a8b3949f4437947fc437b8",
+      "bytes": 153345,
+      "sha256": "eb51ad2f61c92bf13e0f316216ef6dd5972e53027902acf456612421ba9cf523"
+    },
+    {
+      "path": "help/fi/fi.po",
+      "mode": "100644",
+      "gitBlob": "ad3c3b07767dec8ef831d6b5f216e0e707a5b180",
+      "bytes": 52092,
+      "sha256": "63d5169b59023434d2108730221a06ed48d79a46f6f9b0b7a0840bf98b2d5007"
+    },
+    {
+      "path": "help/fr/fr.po",
+      "mode": "100644",
+      "gitBlob": "abda85cda0ca10b4bedc667d79ed6bf803bc5eea",
+      "bytes": 52544,
+      "sha256": "271c74f10e95434d594599e8b892adaa420ed7d5e23669d2d0fa48e7e0daa5db"
+    },
+    {
+      "path": "help/gl/gl.po",
+      "mode": "100644",
+      "gitBlob": "7f7a1bcd17aaac97d7158ec1f6c42296f4dedcdc",
+      "bytes": 48510,
+      "sha256": "e36591fd1fcd6c016cb7a9e5aa506aead01a69fc0adba9a4cc111171ff67917d"
+    },
+    {
+      "path": "help/hu/hu.po",
+      "mode": "100644",
+      "gitBlob": "de3d1b74b58abda5ef7960b0204d46aeae719239",
+      "bytes": 51088,
+      "sha256": "b4802c222d823487639817196b826cd3e662f991acde65a2e8f7d81e122ad709"
+    },
+    {
+      "path": "help/id/id.po",
+      "mode": "100644",
+      "gitBlob": "780ca27666edf6fedb0504f560800e007e298136",
+      "bytes": 49535,
+      "sha256": "e35a7a4dff89702b05004245acd93d925f326399e65c3bdd9cfc59904bc27a23"
+    },
+    {
+      "path": "help/it/it.po",
+      "mode": "100644",
+      "gitBlob": "c0217c6504872364ac49ed5a971589f564fd9325",
+      "bytes": 118477,
+      "sha256": "9a6f1fc3c6faed0efd7ea5cb90091972a366610ffb275dbf58c717130e4200ae"
+    },
+    {
+      "path": "help/ja/ja.po",
+      "mode": "100644",
+      "gitBlob": "9486b9b48d85f9090e443a4ca73558efc2290e60",
+      "bytes": 40229,
+      "sha256": "92929cce0c559d3f394c598be7ef94da203ea447c803644914b27dea093c10b9"
+    },
+    {
+      "path": "help/ko/ko.po",
+      "mode": "100644",
+      "gitBlob": "1259300c15ead0d42ec11fbd9d91ea44dfd92aed",
+      "bytes": 50613,
+      "sha256": "4cff789ffaa8904fcf5e82fe444ede19e5f681a8fbae6b592b403cca0a02eee0"
+    },
+    {
+      "path": "help/lv/lv.po",
+      "mode": "100644",
+      "gitBlob": "0253ffd8a86a29282e77d95c31b3a69ac05e68c7",
+      "bytes": 52026,
+      "sha256": "b7a16a4267fff75dbc9463803c2493cafe25a46dbcb114f04797339f24e46fd3"
+    },
+    {
+      "path": "help/meson.build",
+      "mode": "100644",
+      "gitBlob": "543b7090a63ef635d22d3d702c57c70b0e20286f",
+      "bytes": 792,
+      "sha256": "a5807cca399a9dfcc443273a6905de55d649d2b5ef749fb397ec710881a8c939"
+    },
+    {
+      "path": "help/oc/oc.po",
+      "mode": "100644",
+      "gitBlob": "63323f91536d4718049ff97d8daa63fb338ecef7",
+      "bytes": 114900,
+      "sha256": "5dc6b9fd07425d4bc595a44bf180f9848f165e682b6ea39589ae4c74f9d520e4"
+    },
+    {
+      "path": "help/pl/pl.po",
+      "mode": "100644",
+      "gitBlob": "e6b391b3828fa4844dad1a604317c86f16f66c55",
+      "bytes": 49296,
+      "sha256": "9ea51498b9ed7afe623b09343618ba5bff41e004c64d9fe932dd8e9029ad5c53"
+    },
+    {
+      "path": "help/pt/pt.po",
+      "mode": "100644",
+      "gitBlob": "c0d6fd8db207ac1ab0d01492072490562c04a0f7",
+      "bytes": 48720,
+      "sha256": "0e7d46cb161cd0af15a166d4c6862d324d17541f92464c4bce019c079be8c01c"
+    },
+    {
+      "path": "help/pt_BR/pt_BR.po",
+      "mode": "100644",
+      "gitBlob": "370d2add9843a132ac75e06807cb5a5ad9e53963",
+      "bytes": 54547,
+      "sha256": "ecedb6497fbf1a7a2735c4741d999d2071a35146707bec3308e867c8e086eeb7"
+    },
+    {
+      "path": "help/ro/ro.po",
+      "mode": "100644",
+      "gitBlob": "5dfeb670e2e1ed31f10f489e4c9d557eb10ddf8d",
+      "bytes": 54993,
+      "sha256": "9455e65343678a89b731e93318f9279710733894506dd55888432ba685f26fa3"
+    },
+    {
+      "path": "help/ru/ru.po",
+      "mode": "100644",
+      "gitBlob": "3643dbd6b8ae481f04cb9230a0703e413c509b31",
+      "bytes": 91122,
+      "sha256": "757d55c68a6217edd7b6cb6e7e9198763c85350d63a45955c59502ca8b40c417"
+    },
+    {
+      "path": "help/sl/sl.po",
+      "mode": "100644",
+      "gitBlob": "4ebb546bf4c7052286406586356d764404b7d541",
+      "bytes": 38484,
+      "sha256": "bb9ad1f4bf1ddd7efa49ddca0976dacc3e1a8b731f92264b7e48fa82d0e2feb1"
+    },
+    {
+      "path": "help/sv/sv.po",
+      "mode": "100644",
+      "gitBlob": "a738159c7dffb591da69300010b8ca4cd6f2ea75",
+      "bytes": 52199,
+      "sha256": "1869216411978927a25fc47e2ef8cdcb1abcce614f1c48059809c8101940034c"
+    },
+    {
+      "path": "help/te/te.po",
+      "mode": "100644",
+      "gitBlob": "6667fb1bdc992a8487b6af3a4072391ec92ef26c",
+      "bytes": 27066,
+      "sha256": "d322e69cdd9914b1d6559158bf01e8d06e60e078b2335b328f0456bb9e58b8b4"
+    },
+    {
+      "path": "help/uk/uk.po",
+      "mode": "100644",
+      "gitBlob": "bfcaebebb28e1e33cbeed95a316da38557004db1",
+      "bytes": 62839,
+      "sha256": "e950447e9858cc16ceddd2a61c9a1f20ad35227837668a79f14dcd2e76c6af18"
+    },
+    {
+      "path": "help/zh_CN/zh_CN.po",
+      "mode": "100644",
+      "gitBlob": "dcc79cfb367a45dce2712af50cbe0cced3aa66ff",
+      "bytes": 122030,
+      "sha256": "9b73562cfb4c60bea49471923c369e088384cc60aa516ae15c3059fdba049322"
+    },
+    {
+      "path": "help/zh_HK/zh_HK.po",
+      "mode": "100644",
+      "gitBlob": "f4430b82f8f7f691cdb6f4b0fdc7ae40a0d96c53",
+      "bytes": 118634,
+      "sha256": "a4d4e8874f162466846050ac35c547edbfae3ca49d676874929a65b92e3a6bc6"
+    },
+    {
+      "path": "help/zh_TW/zh_TW.po",
+      "mode": "100644",
+      "gitBlob": "45e07a5e7f8df2350a8b0ca20ff5550867077d61",
+      "bytes": 118859,
+      "sha256": "e4e73af68b50a78deeee89829cadfebdaed4dfe9f02ad32e2677db15e958481a"
+    },
+    {
+      "path": "lib/currency-provider.vala",
+      "mode": "100644",
+      "gitBlob": "518b12f02c3644ceb8f390faf7ee1a871ebc0102",
+      "bytes": 14207,
+      "sha256": "a8fc427d8fd9b358596ae5fdbded12903a7ae4fe81f355bef3c2e2c68993d0dc"
+    },
+    {
+      "path": "lib/currency.vala",
+      "mode": "100644",
+      "gitBlob": "9663868fa585a22fb03b69fcb2dbd99a170df8fe",
+      "bytes": 10079,
+      "sha256": "aa07f75e4bd6fc97b5a5563658ac7734444f144002e3864c224d5444437dd856"
+    },
+    {
+      "path": "lib/equation-lexer.vala",
+      "mode": "100644",
+      "gitBlob": "6c2a5f024a56af77308d3d8ed273a62423aa9f97",
+      "bytes": 25728,
+      "sha256": "774ead993fef2f5fbb10c9aa389fc469efe96c4bb17ffc2a500db567b0ee7fb9"
+    },
+    {
+      "path": "lib/equation-parser.vala",
+      "mode": "100644",
+      "gitBlob": "07b94e700c01d2c7dae5e1ddb5fd07168f25c2ce",
+      "bytes": 66691,
+      "sha256": "c6f6cdb8c8d2b20b79807cc9bdc790b4ae8d50ecc06a9a79ee1d5d4c52b3e105"
+    },
+    {
+      "path": "lib/equation.vala",
+      "mode": "100644",
+      "gitBlob": "9aa717166aae372aa30d4af86774cfa74b030f09",
+      "bytes": 6222,
+      "sha256": "deefc0b799bd862fbf8380982ddc638b241b543be170c5e22f52d5139445d2ac"
+    },
+    {
+      "path": "lib/financial.vala",
+      "mode": "100644",
+      "gitBlob": "0ed79aab94cee2aab560e82905336f8c1254a837",
+      "bytes": 7358,
+      "sha256": "38cbe137f19f4622f9dd4fe5419cccea4215b3c7a9fce67ba32b8c777ebcebf1"
+    },
+    {
+      "path": "lib/function-manager.vala",
+      "mode": "100644",
+      "gitBlob": "61dd4ea494f65151e5e5df0ccb8e272914c0ecc0",
+      "bytes": 11892,
+      "sha256": "3d1228d5182a0125efa8f9158120721a84f10140f14baa0d51fa7cf0200b6b9e"
+    },
+    {
+      "path": "lib/math-equation.vala",
+      "mode": "100644",
+      "gitBlob": "4e30307d1a3a33770b3eeb0b7d3f3539c01f2f47",
+      "bytes": 45375,
+      "sha256": "dc56fd4e1d4d251fda11481202cfa8d9d90ff6bec555e52364d9f325e62efaea"
+    },
+    {
+      "path": "lib/math-function.vala",
+      "mode": "100644",
+      "gitBlob": "de3b44a3dfb70623c1f3c05e9d54cc384b037413",
+      "bytes": 8370,
+      "sha256": "13c2ddf73d601d039fc3884856c74dc8817a799e8d9e7f337eb44ca614e935e2"
+    },
+    {
+      "path": "lib/math-variables.vala",
+      "mode": "100644",
+      "gitBlob": "9685b2c4289015f8d48d3cc7697c0c4db06b19ce",
+      "bytes": 4360,
+      "sha256": "aabf624dc1d3454f40db5efd4757dc9549796ce2cf525e26db6ed840f6017528"
+    },
+    {
+      "path": "lib/meson.build",
+      "mode": "100644",
+      "gitBlob": "8f9e05d4468d4e83249ff1c1d907c4221760783d",
+      "bytes": 846,
+      "sha256": "bd578df8d2c571d1f03ff9c0493e9711b173fcf96f184f4ecff806b09278d6d3"
+    },
+    {
+      "path": "lib/mpfr-glue.vala",
+      "mode": "100644",
+      "gitBlob": "9e801748fd0aa8885463d387200968c35fbe0d93",
+      "bytes": 914,
+      "sha256": "3c77095a08c87a69a602425f0875bb6ddc73d936816626adc3d709f6a4381737"
+    },
+    {
+      "path": "lib/number.vala",
+      "mode": "100644",
+      "gitBlob": "c1d5c741ba5206b2dbb5f6e6cffac62d42de9946",
+      "bytes": 37859,
+      "sha256": "edaea453460f52abbb2ded14e36ff03a2e16d04d5ec6da21de01437f6f89db5d"
+    },
+    {
+      "path": "lib/serializer.vala",
+      "mode": "100644",
+      "gitBlob": "8bf3573ea766d2f69736859a0d8b32264b3cdb0e",
+      "bytes": 15667,
+      "sha256": "ffc24ba93fc73a3b4764753ece9d458fab92aae46440a027b2dbe5d8f8136e54"
+    },
+    {
+      "path": "lib/unit.vala",
+      "mode": "100644",
+      "gitBlob": "b214d0c4c17fc0449327d1c2a3918cec91f12ef1",
+      "bytes": 31554,
+      "sha256": "83f2d375dcb7db30474b57e883f8a702ad5b12acbdcebe8eb4e486b5e3f04a55"
+    },
+    {
+      "path": "m4/behave-installed-tests.m4",
+      "mode": "100644",
+      "gitBlob": "f110c02d71a6b398ab797a8d284b3bf78aeb2108",
+      "bytes": 4917,
+      "sha256": "6568d557666d9d9e69a522cf876349a177dbb1910de2e1768bbb51f84755f939"
+    },
+    {
+      "path": "meson.build",
+      "mode": "100644",
+      "gitBlob": "97c9684caf042f17e3cc8e1b1aea9e807c7038fd",
+      "bytes": 2144,
+      "sha256": "b910c35ba6ee775d4ed8a5081d739039543d2c61c32ca4b5e4567c9303ba15fa"
+    },
+    {
+      "path": "meson_options.txt",
+      "mode": "100644",
+      "gitBlob": "a5756f7b44a1c10e12e6eb966e41d23fa6cafa97",
+      "bytes": 491,
+      "sha256": "0e574656a4cc206d2e37cf08a77ef80bfb77af704d3df0c0a4518360efc2131c"
+    },
+    {
+      "path": "meson_post_install.py",
+      "mode": "100755",
+      "gitBlob": "bf320a9dc6d6f82a57799ff7f81201eda441df94",
+      "bytes": 477,
+      "sha256": "eacdcb7391103041ad26cd628fe31609fa81a900055712d8f0aa79306c1f82d3"
+    },
+    {
+      "path": "org.gnome.Calculator.json",
+      "mode": "100644",
+      "gitBlob": "1372c51daaf1aa8b0992ae08cd588fa5ef5ddf4d",
+      "bytes": 2703,
+      "sha256": "fdf0f4dd0158242157a1d63eb12923f02e0f5d703d4753b0b5a950de548baa79"
+    },
+    {
+      "path": "po/LINGUAS",
+      "mode": "100644",
+      "gitBlob": "fc6f764b3ffca01441f152dcaaafb7b73db91e19",
+      "bytes": 330,
+      "sha256": "caf3ece67ce2827ca2b0877accc1231d1fa4daaf0083b9f844bf57df8517482a"
+    },
+    {
+      "path": "po/POTFILES.in",
+      "mode": "100644",
+      "gitBlob": "69480635d73125eb7d5e1b6ac8c8dbc5bebe9cb5",
+      "bytes": 999,
+      "sha256": "32d610070f9569f467fd3c729ce84191df5c9a42f73d201342095a5c569c9ed9"
+    },
+    {
+      "path": "po/POTFILES.skip",
+      "mode": "100644",
+      "gitBlob": "d616dd8feebe78f8d2cff503ead6293caae6960d",
+      "bytes": 392,
+      "sha256": "27c3057cc1aafd83f3be6dec17db53c41b5d9fad9f5c7c61c7ca0a49a2d083e1"
+    },
+    {
+      "path": "po/af.po",
+      "mode": "100644",
+      "gitBlob": "72353555e93a0b047ec25c670b5b04ff5bdae531",
+      "bytes": 64315,
+      "sha256": "d8b09c1686adf556f3d104527b85908829458d08388093521f4c541e1e30eff3"
+    },
+    {
+      "path": "po/am.po",
+      "mode": "100644",
+      "gitBlob": "151035cd86da6be858e7bbd6c42616c76a38522f",
+      "bytes": 28691,
+      "sha256": "c9cd9f3027725e9aaf463b226604774dcb84189e1c5f26ebe79792ee28f237f8"
+    },
+    {
+      "path": "po/ar.po",
+      "mode": "100644",
+      "gitBlob": "a7e449f951750ef35cfaa9d12b8d4433076577c7",
+      "bytes": 98212,
+      "sha256": "8b4efddea6079d8075ce5c4e7b1bebc58d3e493adbfa377c455a46277bf9ef9e"
+    },
+    {
+      "path": "po/as.po",
+      "mode": "100644",
+      "gitBlob": "90bf1bb7b725ad5f2174d4a8c27244900f03e1f4",
+      "bytes": 105155,
+      "sha256": "dd63c8a5d386ee573bf589a1a2dab54eca46e1bee9fa8cbff9710a5b1d34b36c"
+    },
+    {
+      "path": "po/ast.po",
+      "mode": "100644",
+      "gitBlob": "e58666abe34914591a1aa7bbfa85e56b23c1ff36",
+      "bytes": 63403,
+      "sha256": "a3ef9c1231635a2f2b2968485782f7c8f09802897f6d55b9b991456bb8dd64d3"
+    },
+    {
+      "path": "po/az.po",
+      "mode": "100644",
+      "gitBlob": "309608afa868e5bb88cd622a5083748d46e35244",
+      "bytes": 35687,
+      "sha256": "f0f5458c09025989242b91c5e957718607810f3673d3326dded516b7ece19264"
+    },
+    {
+      "path": "po/be.po",
+      "mode": "100644",
+      "gitBlob": "7783e4e6c41c45e1ae5b910dee37f268dbd46d2d",
+      "bytes": 59389,
+      "sha256": "ec3d8f28068eb7a744126e9a21ac7543bea024cc91e2c9226b8396d6031747df"
+    },
+    {
+      "path": "po/be@latin.po",
+      "mode": "100644",
+      "gitBlob": "bee01df39eed6f5b0479a367a32a43fecd70a944",
+      "bytes": 44374,
+      "sha256": "ac84fcfabb3f6282e48d97767ab17ab4a166fceba60e3f9c4ef353a14feb29e2"
+    },
+    {
+      "path": "po/bg.po",
+      "mode": "100644",
+      "gitBlob": "433bdcb26eea1e21e00556cde023057d39cf5733",
+      "bytes": 83207,
+      "sha256": "13b8e3a721f670642fb0bba7effe6a1b60fc937707d5f58ba3261697d7ae6624"
+    },
+    {
+      "path": "po/bn.po",
+      "mode": "100644",
+      "gitBlob": "a074d0930b4f6f4c8259bb56f5f700f330fb6191",
+      "bytes": 94409,
+      "sha256": "a07a0fb8babe391d7ac3457bbc33d3f544f06f8dda73d3a201424f13fa977b88"
+    },
+    {
+      "path": "po/bn_IN.po",
+      "mode": "100644",
+      "gitBlob": "1d855289a334c8dc03d6ce541e10bedbc6e29312",
+      "bytes": 73768,
+      "sha256": "197dd1c2159ab67d325288b24a3d9ed76aad30ceebae26db19bce3c6aa78fccc"
+    },
+    {
+      "path": "po/bs.po",
+      "mode": "100644",
+      "gitBlob": "6a6641320ba6b980ee565e44eac5fb40b28a330c",
+      "bytes": 66594,
+      "sha256": "5ac001f0a40679d03dca0732c2f8798dcb63339344be9701180be72272d0e066"
+    },
+    {
+      "path": "po/ca.po",
+      "mode": "100644",
+      "gitBlob": "d8fdb30844b95a2e39a0a17f3008862aae20474a",
+      "bytes": 78483,
+      "sha256": "c0563995d888431ae03ad6080d7bd46a7bdd08f4616ea0ab2e71584ac5f1cc64"
+    },
+    {
+      "path": "po/ca@valencia.po",
+      "mode": "100644",
+      "gitBlob": "da078e29a26a96c33965cf374c972f8333a1f5be",
+      "bytes": 115309,
+      "sha256": "0c4afde10a854f571db5929624811be09717f0ad2281a2e3dc0999069711d953"
+    },
+    {
+      "path": "po/cs.po",
+      "mode": "100644",
+      "gitBlob": "01cd4b2508e8a8856ac49b1347be544f1ffa4367",
+      "bytes": 80669,
+      "sha256": "f4a9f70c678b55a61ec08618d60284b13ae96c3e21891fdd56061d9909a8975e"
+    },
+    {
+      "path": "po/cy.po",
+      "mode": "100644",
+      "gitBlob": "533705c4de63fd6634f15a0cab8ec4cf7f45c8d2",
+      "bytes": 42949,
+      "sha256": "3c80b63380fd9963137cc1323caf2d6c4064000e297aeeba46f17ecbce36d917"
+    },
+    {
+      "path": "po/da.po",
+      "mode": "100644",
+      "gitBlob": "5ad338d30eab245bf86d75767c8445b5237901c2",
+      "bytes": 114999,
+      "sha256": "b98a0e80fc70b4130a71289017eac8ce21d144b5319868d3907a634d98fa791b"
+    },
+    {
+      "path": "po/de.po",
+      "mode": "100644",
+      "gitBlob": "48df7efa26085b22017c2e64518894919b02c191",
+      "bytes": 81941,
+      "sha256": "c196ab2101d9ad429c55d91255b00bd85bdffd4c607d09fb708d22fbc4ece6f9"
+    },
+    {
+      "path": "po/dz.po",
+      "mode": "100644",
+      "gitBlob": "68aa4ef98fc7b33cd0d498e2874a4ff4773acf28",
+      "bytes": 71889,
+      "sha256": "abc8af79958e3aefb304a81ce31a147df22acdcb03929de56c7e8497e0539159"
+    },
+    {
+      "path": "po/el.po",
+      "mode": "100644",
+      "gitBlob": "7dbc36d616812b8748505092e92a42496570497b",
+      "bytes": 106571,
+      "sha256": "307ab641ebab100c5e5945777d3aa575b8992c84f7741cff290df00d3f78e7a0"
+    },
+    {
+      "path": "po/en@shaw.po",
+      "mode": "100644",
+      "gitBlob": "50dbac9c4c27309b06243c2f860a7142ba9f459f",
+      "bytes": 61418,
+      "sha256": "e18b796fcf274cf59415900da12a00336f567c6da57b46d0d108c5fc48809766"
+    },
+    {
+      "path": "po/en_CA.po",
+      "mode": "100644",
+      "gitBlob": "12a6e481c13dabbaf74d9cc04442969050692b1c",
+      "bytes": 59470,
+      "sha256": "726d0b235493c324c8ffd671f7379746407cb7c8895fc70ac453ddd338721af0"
+    },
+    {
+      "path": "po/en_GB.po",
+      "mode": "100644",
+      "gitBlob": "f12ca8b4b4ec00b2070267b3d4bd2163c3b80c33",
+      "bytes": 115083,
+      "sha256": "542133ef670b55a94d016c887acba73c2b1e25aa21512d2ec915767e67b3a847"
+    },
+    {
+      "path": "po/eo.po",
+      "mode": "100644",
+      "gitBlob": "623a342884fc4acd65f2b34ad6b8c5ee01e68cc2",
+      "bytes": 77741,
+      "sha256": "b6a515d6bfc5095d2e723997930264a371ac6109d868eef12ef47b6a631112cd"
+    },
+    {
+      "path": "po/es.po",
+      "mode": "100644",
+      "gitBlob": "4550ca2b00e4c6fa6e9ddc9ccc89c2e3432a1170",
+      "bytes": 118319,
+      "sha256": "41a392173d807f0eb1f8c04d9c4dffc2e751e9e1c6b01f1295493033af217d16"
+    },
+    {
+      "path": "po/et.po",
+      "mode": "100644",
+      "gitBlob": "64f49f33adb973875bdb9506ca49826926a90c5f",
+      "bytes": 34861,
+      "sha256": "8c7c998d771900c4900a8f9f664605a6b40b7f16d14ff757ca694435a2e82f0a"
+    },
+    {
+      "path": "po/eu.po",
+      "mode": "100644",
+      "gitBlob": "c0a57c00f69cf156eae75c02af7dcaf7e764cde2",
+      "bytes": 78458,
+      "sha256": "51d901d9cf1a453d42bc61a9a0727c437652afc97116ef76dc0601189f46fff3"
+    },
+    {
+      "path": "po/fa.po",
+      "mode": "100644",
+      "gitBlob": "bdf23295fa339969f9884f1dbc21025f2e0291a4",
+      "bytes": 104946,
+      "sha256": "10ee52f3189710794e6cef1a41b8b1db73ba4ba37baa6b888f8c4075fc7b25c2"
+    },
+    {
+      "path": "po/fi.po",
+      "mode": "100644",
+      "gitBlob": "65e05156b3cd67a985d8d32fd3959896393e7978",
+      "bytes": 83806,
+      "sha256": "13c47a8d22d37921d838ba8656418688ccca41f2fa157da1ac4895f2075ae663"
+    },
+    {
+      "path": "po/fr.po",
+      "mode": "100644",
+      "gitBlob": "eac91cd372c5a5b8093504d9e5a5afdf2f6fad7e",
+      "bytes": 80641,
+      "sha256": "71a865c4ea20b143dec550adcbaa9fc2803e10ffad9a38e6bdc68e19c6989406"
+    },
+    {
+      "path": "po/fur.po",
+      "mode": "100644",
+      "gitBlob": "90b7ab8bb419ee28c73801a7b57eb2ab36fed9ce",
+      "bytes": 78886,
+      "sha256": "0aa94bc32193d54cac633e6942ff735d46be95f816195379f4e123e4077a3f88"
+    },
+    {
+      "path": "po/ga.po",
+      "mode": "100644",
+      "gitBlob": "14de0fe39f9c028c3ca4b19d35b3e90237fc5cce",
+      "bytes": 42210,
+      "sha256": "551899dff9032642c266a9591ad9ef6e2b4485e094c1139623305a8ca6151b88"
+    },
+    {
+      "path": "po/gd.po",
+      "mode": "100644",
+      "gitBlob": "dbf0615d64e6632bee9934510c0127c23a569821",
+      "bytes": 75549,
+      "sha256": "ff7aca1790d3911088c1a084df2e9c3ad52732f86b8b0fee37bab92000967e66"
+    },
+    {
+      "path": "po/gl.po",
+      "mode": "100644",
+      "gitBlob": "5e91cf9c2d0fd75f816fb5ed9334788a77915272",
+      "bytes": 81660,
+      "sha256": "ee99753ebc6a8827ec51f7ead24032cf2a495583e60c3fee4f0c2770cf5fe8c5"
+    },
+    {
+      "path": "po/gu.po",
+      "mode": "100644",
+      "gitBlob": "721b563477fc8eb3607edb5a8876729d22edf303",
+      "bytes": 75045,
+      "sha256": "fd8125bd4b3c9b76fd6aaebdbca71727a8aa775d469aeade32025df10deabf36"
+    },
+    {
+      "path": "po/he.po",
+      "mode": "100644",
+      "gitBlob": "81b3e47df5c121637146bfb46afdfaceefcc3737",
+      "bytes": 111990,
+      "sha256": "a0d75092e5aca3eab1afdd00f8834da5e9e7438d7815555b55d1ac14effeab4d"
+    },
+    {
+      "path": "po/hi.po",
+      "mode": "100644",
+      "gitBlob": "65ef1dad06707f5f452b9052d6d4880f1bf74bf7",
+      "bytes": 74072,
+      "sha256": "99e5f7cb5f9c1b9f87515a30daaf15dbea01e2ea84d3c48cd32910c2a1332ff5"
+    },
+    {
+      "path": "po/hr.po",
+      "mode": "100644",
+      "gitBlob": "9609624efd4ef703785b600f7361d804313391e1",
+      "bytes": 77339,
+      "sha256": "92a9357bbef14b3050c08c19ba80d61a0870ba754620790f6ef7afb5ccfc5946"
+    },
+    {
+      "path": "po/hu.po",
+      "mode": "100644",
+      "gitBlob": "e34342b1e5341aa90ecad9288c321e1be13c8c74",
+      "bytes": 78477,
+      "sha256": "e07a441683cd3300a72232925d9f50a2d45e443526018cad83590409664aaf15"
+    },
+    {
+      "path": "po/hy.po",
+      "mode": "100644",
+      "gitBlob": "d874f064bf48ff53640cfeb8ef06771081905dad",
+      "bytes": 41576,
+      "sha256": "859747646aa2e79d7466d42eb50ee8831fc4f542a8b5f7d08f193017289fc391"
+    },
+    {
+      "path": "po/id.po",
+      "mode": "100644",
+      "gitBlob": "fae172ec4cd42b07c398e2f798ee735463925ed7",
+      "bytes": 77384,
+      "sha256": "2b574f40897a6f443c8e7ce4345965452591e4dfb17c35d9bd8e91981a663a2e"
+    },
+    {
+      "path": "po/it.po",
+      "mode": "100644",
+      "gitBlob": "cf8228729ce3135b968ef44fc6e5c95b147b3a7f",
+      "bytes": 78124,
+      "sha256": "19629694fee75b6abb71ca7676d66b1a350b665f8c0fe57e2a2a5bd37811bf74"
+    },
+    {
+      "path": "po/ja.po",
+      "mode": "100644",
+      "gitBlob": "b774acd8e8c3c64ae51962a658aec8b235a90b25",
+      "bytes": 80468,
+      "sha256": "a84a4d61dc237edb36a743d31ed4a6340e9890ef6ca629e078cab84f191ff8d8"
+    },
+    {
+      "path": "po/ka.po",
+      "mode": "100644",
+      "gitBlob": "b9ff98e2d88beaf7c31688164909857f99a3fa39",
+      "bytes": 45557,
+      "sha256": "87e1a1f88bcb81860228160c7f786f9421555319482143954d82fa71b7ac56cb"
+    },
+    {
+      "path": "po/kk.po",
+      "mode": "100644",
+      "gitBlob": "3e7e126675b1fde31b0deae0a67d42e9aadeea4d",
+      "bytes": 90484,
+      "sha256": "c421537e06761d8f18ff7a137e4dff5356253c9daf56faad3aa4162b0a177dae"
+    },
+    {
+      "path": "po/km.po",
+      "mode": "100644",
+      "gitBlob": "55c1931312b91f51dadda16e6c47bef51448b01b",
+      "bytes": 81593,
+      "sha256": "a8fff1497177b7174d960c92588551c35c76488a1da524fa41665fc94f73b881"
+    },
+    {
+      "path": "po/kn.po",
+      "mode": "100644",
+      "gitBlob": "937a863d6b25706de3ee60b71cfa96f8ec46beeb",
+      "bytes": 75028,
+      "sha256": "39362405d62b31dee02ee63c406e5e7e07d448b1172eff825675b0a8d2a667cd"
+    },
+    {
+      "path": "po/ko.po",
+      "mode": "100644",
+      "gitBlob": "dc10ef5c9794ed5b3991b8dfb55a589f2bb865b6",
+      "bytes": 79047,
+      "sha256": "f0fc6bfe6e85eafeee0f1fd1b3003346cc3d9fa29da1c16b79222aee0ea75c6d"
+    },
+    {
+      "path": "po/ku.po",
+      "mode": "100644",
+      "gitBlob": "9e9f5d93a3f377789b7f24920bfe636e70a9c21a",
+      "bytes": 25989,
+      "sha256": "3e8c2b6079b7e325e52cb2d3868892a4307d0b5c6ccb85f8dc56e31c1da46117"
+    },
+    {
+      "path": "po/lt.po",
+      "mode": "100644",
+      "gitBlob": "3d5f40a7e028ecec4a544b5a881edb97693513c7",
+      "bytes": 81595,
+      "sha256": "30d7b6d411dd5491a9e5dc1ad93f4e6f9e13d68b3ee0fe6f3580964c68700df2"
+    },
+    {
+      "path": "po/lv.po",
+      "mode": "100644",
+      "gitBlob": "2c9cef11f493b5f8bc5f6eb1bb4445cb83aa69cd",
+      "bytes": 79374,
+      "sha256": "0e47531b1c9297e3dee54c215f9f51d54a859ebba62b742da51c293adf06bfaa"
+    },
+    {
+      "path": "po/mai.po",
+      "mode": "100644",
+      "gitBlob": "af042e49fdf349470a2572c95369abf62006d0af",
+      "bytes": 59992,
+      "sha256": "e8cd4269ee409d46fe5b5312be0c114625b789ff043e8621a8fea1cb5578e8f0"
+    },
+    {
+      "path": "po/meson.build",
+      "mode": "100644",
+      "gitBlob": "f904cde4d412a46eb311bceca736b3860681e915",
+      "bytes": 54,
+      "sha256": "c01fc7efe4b405668ce70545c487fb620eb40975b2d9fe58534933a985ac3a8a"
+    },
+    {
+      "path": "po/mg.po",
+      "mode": "100644",
+      "gitBlob": "d7dc781352ef81a7b91b46c503af2afe982abe33",
+      "bytes": 34697,
+      "sha256": "0fcbf0dde3847d2f721fe2874d28645fee0a9db61b4b1bdcea961e631109d5b7"
+    },
+    {
+      "path": "po/mjw.po",
+      "mode": "100644",
+      "gitBlob": "0ce4fcd94873a2b51a42b4591cb737e572273b76",
+      "bytes": 66467,
+      "sha256": "a908a4fc736fd9ddeed4d98952e4828c16603d1f22294452743c3f227df033bd"
+    },
+    {
+      "path": "po/mk.po",
+      "mode": "100644",
+      "gitBlob": "adac6918e6178b766f047bb40d9ea52d8d381579",
+      "bytes": 94245,
+      "sha256": "8378cedda476eec12abc188f19cf7bc3829d6b84254e380791ff6a649df04ccd"
+    },
+    {
+      "path": "po/ml.po",
+      "mode": "100644",
+      "gitBlob": "340d01651fb5efd8a7278827e3a71dd3a4b28e61",
+      "bytes": 111066,
+      "sha256": "d8b971e6f95461fc5c04048deafc3887b4297807619a684fce2992fc273dd8ec"
+    },
+    {
+      "path": "po/mn.po",
+      "mode": "100644",
+      "gitBlob": "c7a4c68201300863c20fcbf440ffa179b12220d6",
+      "bytes": 39185,
+      "sha256": "083b5073cd4eebe2aa0366ac74de26bf99661573c4736baee4e1eb6d4080a14f"
+    },
+    {
+      "path": "po/mr.po",
+      "mode": "100644",
+      "gitBlob": "8299bcd8bf73aeccae6c98d6a8bad78dffd1ee51",
+      "bytes": 102710,
+      "sha256": "57a175a8ad5850e0f22f04dafc0ea7377c69dccb181c9928e00e502d40469b79"
+    },
+    {
+      "path": "po/ms.po",
+      "mode": "100644",
+      "gitBlob": "35b613192391833ec27574216d495e05e1cb6a62",
+      "bytes": 91533,
+      "sha256": "5e30ee5a300dfd6232d8b2b7887971c4364268497e58d9fce581436f9d867790"
+    },
+    {
+      "path": "po/my.po",
+      "mode": "100644",
+      "gitBlob": "aa68a1a05e52bce7e99bf585a182ba7b7acc72dc",
+      "bytes": 43976,
+      "sha256": "e3653638a50dcbfac599268ffc8d36318574e6074e2ca7c27204d46e37cccb55"
+    },
+    {
+      "path": "po/nb.po",
+      "mode": "100644",
+      "gitBlob": "f6df5f9642605b949206422371c8271a129ff440",
+      "bytes": 75792,
+      "sha256": "25fe88fc522afec35c7e378da21d90db5c9d1e2e57a4c02546189d1ca0612474"
+    },
+    {
+      "path": "po/ne.po",
+      "mode": "100644",
+      "gitBlob": "5eaff07021f4c634352caae3bb354ddccb7440ad",
+      "bytes": 88409,
+      "sha256": "afe4f01b9df29b075dfac5e23d0c034e3509276d08b3a57896cef8b2fdff9749"
+    },
+    {
+      "path": "po/nl.po",
+      "mode": "100644",
+      "gitBlob": "63441df19333b0bd7124ec7b712df7e11622840c",
+      "bytes": 81337,
+      "sha256": "112edbaa2c0f7a38daa08e70c8fa4eaa7cff9302feaa0df4cb7197336c64bc86"
+    },
+    {
+      "path": "po/nn.po",
+      "mode": "100644",
+      "gitBlob": "6e005478d62f32802458637fba7e5269e2d2c518",
+      "bytes": 63455,
+      "sha256": "268f4ff7fab50134ef40f27d1368c4c05ac746f630239060ae5af3fc82e78087"
+    },
+    {
+      "path": "po/oc.po",
+      "mode": "100644",
+      "gitBlob": "7ad3a8afe9e7be5f0823fecd31c131b345863bd8",
+      "bytes": 67628,
+      "sha256": "7988dc6040eab50c8916d1bd201ccd97d47106999d0fc41c0ce4e48cda373977"
+    },
+    {
+      "path": "po/or.po",
+      "mode": "100644",
+      "gitBlob": "f593806f86376ea68523c68abe9cee0749c10760",
+      "bytes": 81738,
+      "sha256": "0817bd68953e640cd34a57342a987014a95aefac3871a877b39ede8962169d07"
+    },
+    {
+      "path": "po/pa.po",
+      "mode": "100644",
+      "gitBlob": "a0d23b9aa1879149fec6e95d08ff63f0a29f4afe",
+      "bytes": 132047,
+      "sha256": "2aa81663638ec34a65cbb9ba966ac2b31fc742c460b1f7b31cfb44d448197b03"
+    },
+    {
+      "path": "po/pl.po",
+      "mode": "100644",
+      "gitBlob": "7bc8a7c23331b0a0281c2caaff3c20d6ba94a235",
+      "bytes": 79096,
+      "sha256": "6b0064f66ae7437490dbbdd7106288a0e2995ca926d251c6fc6074218249b246"
+    },
+    {
+      "path": "po/pt.po",
+      "mode": "100644",
+      "gitBlob": "32e5f9afd2346885e2bdcd06a8c3b7e470e3e58a",
+      "bytes": 183977,
+      "sha256": "14ec68394b0a0827934234b013e1cf403ede5dfd2c9d84fb85d1476c1758d937"
+    },
+    {
+      "path": "po/pt_BR.po",
+      "mode": "100644",
+      "gitBlob": "516370b9d27dd4747ada8219b647ca1ec3069956",
+      "bytes": 85010,
+      "sha256": "41452099ddd0819c751e76bee34b729c73613ac8b589ab173193b3264a989953"
+    },
+    {
+      "path": "po/ro.po",
+      "mode": "100644",
+      "gitBlob": "926e6658524d934057ac649399cbbec8e2c37773",
+      "bytes": 110187,
+      "sha256": "2e098922d20bae476c6c784d209a4549da63a77e36c00ce9bdce6327ca3623f0"
+    },
+    {
+      "path": "po/ru.po",
+      "mode": "100644",
+      "gitBlob": "f36acbb57891779dd295333ac771072296923a89",
+      "bytes": 85120,
+      "sha256": "98a23acab155cd6208f5c4cb681fe014285264073293db81eebbb809bc13ac4b"
+    },
+    {
+      "path": "po/rw.po",
+      "mode": "100644",
+      "gitBlob": "5035f9ab616d25291225e214e0d9de436dc08a74",
+      "bytes": 52850,
+      "sha256": "3c4d41348b82a60f7f3fae770f3b118259121cba39b5accee70ad0a47cc1f0dd"
+    },
+    {
+      "path": "po/si.po",
+      "mode": "100644",
+      "gitBlob": "f6827419c922c1013d4a8dcb2fc1363ec5fe19b7",
+      "bytes": 67309,
+      "sha256": "cab70fa06067fe95202ad17e59ddc84ac2b27355e504cacd6b0ebcde0d4ee3aa"
+    },
+    {
+      "path": "po/sk.po",
+      "mode": "100644",
+      "gitBlob": "747b571afca2f3039e655ab6fd6fefbb50207371",
+      "bytes": 81134,
+      "sha256": "4237c8b5898d2e3a43a37217195e4a9bcafe6b10e93755912da1d21ba9635a15"
+    },
+    {
+      "path": "po/sl.po",
+      "mode": "100644",
+      "gitBlob": "eb1dafe6eaf8859342df81e49d997782cf270891",
+      "bytes": 87172,
+      "sha256": "92ce7dbeb7f5b504ac2591589d6f43ba8bce3fb7a969c68bfa80ba3f82d2dd13"
+    },
+    {
+      "path": "po/sq.po",
+      "mode": "100644",
+      "gitBlob": "c6eef870802f543c24b3c373da05ad542ed02895",
+      "bytes": 47763,
+      "sha256": "2497ba0d356e2d12a0aad7e0ca222c8dfab5352dc0a7deee84a5b286719f85f8"
+    },
+    {
+      "path": "po/sr.po",
+      "mode": "100644",
+      "gitBlob": "1d779f655b176c0844a8302727531f02f97edf5f",
+      "bytes": 89795,
+      "sha256": "c3c5943e8fbdb07c02ae394433e4eb4402ec92bebda74a4431ae30ddcfafa818"
+    },
+    {
+      "path": "po/sr@latin.po",
+      "mode": "100644",
+      "gitBlob": "43ebe45626bef7cf7f5cc671abfd7518dc0d51cd",
+      "bytes": 73165,
+      "sha256": "ceb613f009247463b2ae8130a4a2429841ebb534fdb693e5cbd0fd88908baaa8"
+    },
+    {
+      "path": "po/sv.po",
+      "mode": "100644",
+      "gitBlob": "1c6713272e8c6d1031f2aeb36ab7eaac08c5581a",
+      "bytes": 78835,
+      "sha256": "edc61ee89cc1c12d40dbcd4f790a2140028d66e81bdb5dcc88acb7787ccc986d"
+    },
+    {
+      "path": "po/ta.po",
+      "mode": "100644",
+      "gitBlob": "b11d3313431370954c965069b04b84bfd8b95f95",
+      "bytes": 83060,
+      "sha256": "9336e6118365e227756304006687cbe26c8aa6099ce97d5e78a7bc6e8b0ce281"
+    },
+    {
+      "path": "po/te.po",
+      "mode": "100644",
+      "gitBlob": "1dff90af21bf697db86e1c6dd779d42cacc7abf8",
+      "bytes": 79368,
+      "sha256": "3f39c2064c0f20e51ceaae8ce73d55c8f230a4a16e3c851c0eda13e4d94d9cf1"
+    },
+    {
+      "path": "po/tg.po",
+      "mode": "100644",
+      "gitBlob": "eb6480890074aa91fe99979b306d56f8589b104f",
+      "bytes": 77005,
+      "sha256": "a7ad2eb5487235bed1c811561f1b2b94287c89c6cf965ad2f8d6abc38463ca2c"
+    },
+    {
+      "path": "po/th.po",
+      "mode": "100644",
+      "gitBlob": "377594b76ed87fe6ea614e808a411221dd560557",
+      "bytes": 134218,
+      "sha256": "92820aa87305773ed6329347fa453171b57456ff8c7cbac97f1a342b76f92f1a"
+    },
+    {
+      "path": "po/tk.po",
+      "mode": "100644",
+      "gitBlob": "d8a4159bbf12ce84df7bf3693e54ebdf43f21527",
+      "bytes": 31260,
+      "sha256": "3056f94c6f9c017d185565e858dc647f354b2171aff8edfcdada1137d98cbc32"
+    },
+    {
+      "path": "po/tr.po",
+      "mode": "100644",
+      "gitBlob": "18e1ec14bce22d6a6756c8c63fd8893f691805af",
+      "bytes": 78942,
+      "sha256": "ce189e89071780fdd98f599de0368bbd41f3ba3b142df7c317fc339e5abeee7a"
+    },
+    {
+      "path": "po/ug.po",
+      "mode": "100644",
+      "gitBlob": "fc5d57edb7a1ecb2fc168f3059871e6a40ef48a8",
+      "bytes": 65684,
+      "sha256": "8751bbd6b4e92961237f705d1b55ea636457eda527545767c08d152bae5a1b10"
+    },
+    {
+      "path": "po/uk.po",
+      "mode": "100644",
+      "gitBlob": "83bdf958b19ecd793c4ff8b4d9f67a86fc565350",
+      "bytes": 92532,
+      "sha256": "f9371dc3016e550a93b239f7eb9fde009600bf6451559ca64806e6dbab0ba8c5"
+    },
+    {
+      "path": "po/vi.po",
+      "mode": "100644",
+      "gitBlob": "73a27c6e9423d78e44d8cf911e2ac4735a660b7c",
+      "bytes": 79510,
+      "sha256": "3c7b4a0e3103c89d4fb93d4748440f9ecd4d5b4ff1712da4f470df646e229cf7"
+    },
+    {
+      "path": "po/xh.po",
+      "mode": "100644",
+      "gitBlob": "8a15ff5e2ece1ead719bea870ce3f16a949b4f07",
+      "bytes": 34404,
+      "sha256": "39c4e63197e63db1c32bed6aeb0dfae083c43f376488cd858bad88c36a37b381"
+    },
+    {
+      "path": "po/zh_CN.po",
+      "mode": "100644",
+      "gitBlob": "1669b7770f989da427455ad0fa22c8a9dbbdeaae",
+      "bytes": 83368,
+      "sha256": "f92e9df630026e6e08c6260cdc3bbfdf50022e9d490cc6c4a7cde30d34232936"
+    },
+    {
+      "path": "po/zh_HK.po",
+      "mode": "100644",
+      "gitBlob": "3be581fcf3e852f1ff534637add1b16f192f1bae",
+      "bytes": 66128,
+      "sha256": "1a96e5e7a5fad74ea9782d56ba507f73c6306d2c395aa3b088b78c9d8b45320d"
+    },
+    {
+      "path": "po/zh_TW.po",
+      "mode": "100644",
+      "gitBlob": "3d857fe7a007d83bacd8fa8776957765b78cab03",
+      "bytes": 84025,
+      "sha256": "b8df59838eccfeae86be62538a2b11a7e16c8a7f5145d4226af6b7194a8a7556"
+    },
+    {
+      "path": "search-provider/meson.build",
+      "mode": "100644",
+      "gitBlob": "52bf5fc0d7d4a62f93bfc252e3ac60f0b349aee9",
+      "bytes": 1389,
+      "sha256": "a98d6218f50e77f8eea20096e016e38b0706baf7bb246388b55719e04efbdb95"
+    },
+    {
+      "path": "search-provider/org.gnome.Calculator-search-provider.ini",
+      "mode": "100644",
+      "gitBlob": "97778ff0a3f5bb192d1b65c6bbd6921860352283",
+      "bytes": 165,
+      "sha256": "97d9a681c0efae36298be636d6f7cbdb4b7886503a07ee3dd699d89b880d5266"
+    },
+    {
+      "path": "search-provider/org.gnome.Calculator.SearchProvider.service.in",
+      "mode": "100644",
+      "gitBlob": "8d7c02a18e97769736f9b1ea78dd77ff587d57bb",
+      "bytes": 108,
+      "sha256": "67b7aa172b2b3b420365bc8793ae2000f59918f91ef73ba0b2f1c685f2b5cf0c"
+    },
+    {
+      "path": "search-provider/search-provider.vala",
+      "mode": "100644",
+      "gitBlob": "f37d24dcbf39cefe9c1b81d4c01a7800902a8f4e",
+      "bytes": 8493,
+      "sha256": "87fd5e7f6f0949aba059ced616ecb34e88f5e583a046613474bcd96c284b8834"
+    },
+    {
+      "path": "snap/snapcraft.yaml",
+      "mode": "100644",
+      "gitBlob": "fc90aca9354efcf8b680dfa61bdb3a6a2bda01ae",
+      "bytes": 3329,
+      "sha256": "7ef72afa0c63b7287b562224c4af7a8abcfee5c02e0282aa6f8b75f310c64867"
+    },
+    {
+      "path": "src/gcalccmd.vala",
+      "mode": "100644",
+      "gitBlob": "cb3568a88b5e3b0897011bf62d92d7dd7622b449",
+      "bytes": 2748,
+      "sha256": "fd1f34f3d5e016ae68ced655b1f65c948e95a342d54dd0b257cb05a11e0eb912"
+    },
+    {
+      "path": "src/gnome-calculator.vala",
+      "mode": "100644",
+      "gitBlob": "1090fa25f031da607e38e8c6f9fa3b4fcf276270",
+      "bytes": 16806,
+      "sha256": "6d8a184ed96aa14ef18b141e8913963249e5a1e155f4ad5651052dd4555b319d"
+    },
+    {
+      "path": "src/math-buttons.vala",
+      "mode": "100644",
+      "gitBlob": "7f8e85f6cd280e8c17f9142efb67910451e73261",
+      "bytes": 23079,
+      "sha256": "34429834b179f1d1317a4ad8a05e13c279402ed1b4163f0d5d1e4f603ec14db0"
+    },
+    {
+      "path": "src/math-converter.vala",
+      "mode": "100644",
+      "gitBlob": "bc03b4de9fe6e70baadda7c8087ebd2dff3af87f",
+      "bytes": 8404,
+      "sha256": "593ad181519a21e239e6328bd8869e37a1aae4377b63dc74994181e37738a419"
+    },
+    {
+      "path": "src/math-display.vala",
+      "mode": "100644",
+      "gitBlob": "d810b260025f22ddf7c21c3c0acec7f4d57ba349",
+      "bytes": 21834,
+      "sha256": "c5fb70e4e269fdf7ce7c542bf06247d7cb601a4b0f4b16ac6ed56b0c4b6e4f68"
+    },
+    {
+      "path": "src/math-function-popover.vala",
+      "mode": "100644",
+      "gitBlob": "f2d1ea0913ffbcc7bd06ddcb03a9fe04e04afb78",
+      "bytes": 6856,
+      "sha256": "bbafbd3a0aba84f8ea15265f15454f974677cc04160835463bd05d35a435f347"
+    },
+    {
+      "path": "src/math-history.vala",
+      "mode": "100644",
+      "gitBlob": "5331217dd06a93a224a08b3dba83b6972e265abf",
+      "bytes": 3821,
+      "sha256": "40906ceec4d0326092a494f6dd78406fe4b2f94217cdacd802b6236b00a089a7"
+    },
+    {
+      "path": "src/math-preferences.vala",
+      "mode": "100644",
+      "gitBlob": "8c64a48a38bed1d57cde2c7a587890f4ff42a56e",
+      "bytes": 3905,
+      "sha256": "d00648a0561d59dc5cf17a149c1ad4c186d55947235b1a1aa7b1a1a2f140248e"
+    },
+    {
+      "path": "src/math-variable-popover.vala",
+      "mode": "100644",
+      "gitBlob": "9677f108fafe7f57ea0cf67a1a60fae992e2c788",
+      "bytes": 5393,
+      "sha256": "dbf787cd6e48861db32d1e2b4a4c1162983791d766238ccbadee468a3c25ffa8"
+    },
+    {
+      "path": "src/math-window.vala",
+      "mode": "100644",
+      "gitBlob": "b50c6e4153dc5cfe11bb63ec6891333d8fde10aa",
+      "bytes": 7255,
+      "sha256": "d709120af55521e4bcd9ec37ad0622b88eeb406e0294fbac60d609dadc8aac66"
+    },
+    {
+      "path": "src/meson.build",
+      "mode": "100644",
+      "gitBlob": "d4ee5ffc8c0112c562afd7335cefdc65e98bb4b5",
+      "bytes": 1965,
+      "sha256": "f922b30225e909633819707d2d011192acf6f37b7f42600af179f0aed2570a09"
+    },
+    {
+      "path": "src/ui/buttons-advanced.ui",
+      "mode": "100644",
+      "gitBlob": "e2c9dccc63cea575112d37e92cfcfaf78fccad76",
+      "bytes": 46200,
+      "sha256": "fab3126ced395d68e42c36a774b9d4b04357dab8256d246e9199750444800f6e"
+    },
+    {
+      "path": "src/ui/buttons-basic.ui",
+      "mode": "100644",
+      "gitBlob": "f95ee915782313b2e9fcad85fff366e5a0c71726",
+      "bytes": 19868,
+      "sha256": "ac5ab0bfde88ddd1cc7c595a5fd3787053b6665f10991a79d6eb0649e66f8d60"
+    },
+    {
+      "path": "src/ui/buttons-financial.ui",
+      "mode": "100644",
+      "gitBlob": "d8f276d9d81dd8f69cd7302cb94fde94963be671",
+      "bytes": 124094,
+      "sha256": "56748688119cd2e8070236e80e10f6104dde20de2b805a4874907e7264346c7f"
+    },
+    {
+      "path": "src/ui/buttons-programming.ui",
+      "mode": "100644",
+      "gitBlob": "eb31dcc526a38568af85f3f0a696206f2182cafb",
+      "bytes": 114766,
+      "sha256": "2935b0dd99467a96cc74a4e9438890fcf3c4cb8b9fee759ee54e8d8b31782e7b"
+    },
+    {
+      "path": "src/ui/calculator.css",
+      "mode": "100644",
+      "gitBlob": "5439f0aa053209ca0386dc4e49807bef18eeb66b",
+      "bytes": 1673,
+      "sha256": "1ec0f74ee640e4cde0d552f1b13fbcfd6fa67f16bd1229c621a6d8213c428263"
+    },
+    {
+      "path": "src/ui/gnome-calculator.gresource.xml",
+      "mode": "100644",
+      "gitBlob": "434d192004561ed0dad8e3d9a252061e94be28c2",
+      "bytes": 945,
+      "sha256": "630ca7fa049a9a032741a7f6fc23741e6c3f5aaded99a5a182347a55d830c3dc"
+    },
+    {
+      "path": "src/ui/history-entry.ui",
+      "mode": "100644",
+      "gitBlob": "88ee47173faa5848518c4dd0a6cf5bf2334f2ca1",
+      "bytes": 3576,
+      "sha256": "373863085823bdd4af74b674d15374535f1a39d4b9adba440f98539ce26ab3c3"
+    },
+    {
+      "path": "src/ui/history-view.ui",
+      "mode": "100644",
+      "gitBlob": "1b77119e6b1d33468287e605eef2e8d8771643e0",
+      "bytes": 1309,
+      "sha256": "1c12b2739ec02622698778819c1d5d1858de864fb00014bce9a59b0bcc810594"
+    },
+    {
+      "path": "src/ui/math-converter.ui",
+      "mode": "100644",
+      "gitBlob": "88c6c8d8014dba24a6dbe753bb10d1ca15500734",
+      "bytes": 5636,
+      "sha256": "8c5c4cd290bd9598fc3098c5b80fef10de5c8f87f3b7933a02c9bee06c9a644d"
+    },
+    {
+      "path": "src/ui/math-function-popover.ui",
+      "mode": "100644",
+      "gitBlob": "3cc88b762df0d811b15044ec3f96790bc54502e8",
+      "bytes": 3632,
+      "sha256": "8b3011777e9aba4d9135e2bf35d4485ba10ca71289872596033ed38a76cd5755"
+    },
+    {
+      "path": "src/ui/math-preferences.ui",
+      "mode": "100644",
+      "gitBlob": "0eb3ec2e1e0ff731bb1656e052616b09f6bf9f98",
+      "bytes": 10593,
+      "sha256": "45c9a87d522a88c5b33a1642abab70e8677779af6ba4da505219e240ea2c326c"
+    },
+    {
+      "path": "src/ui/math-shortcuts.ui",
+      "mode": "100644",
+      "gitBlob": "3c353f1a86d55a90e7ef16db73fad94f1afcfe68",
+      "bytes": 12009,
+      "sha256": "1099db2f3f514eb6c3bc31dee54335399d27cd3c4e2784d569abb53a6b77e4df"
+    },
+    {
+      "path": "src/ui/math-variable-popover.ui",
+      "mode": "100644",
+      "gitBlob": "7a4c5d1a3ee97633652a5e7741856f5c60d465da",
+      "bytes": 3262,
+      "sha256": "7571dbc2496b043b427a9edb7aef922c1d17be8b353be6a47e55989bb6431b3a"
+    },
+    {
+      "path": "src/ui/math-window.ui",
+      "mode": "100644",
+      "gitBlob": "f9e0f00eb81d473b7a0aba4b7f59e7f199066ed8",
+      "bytes": 9990,
+      "sha256": "6349c9634bd4c04ab935f64c2b3904ebf4ad50c00e20a23dd73ec612fea1935c"
+    },
+    {
+      "path": "tests/advanced_mode.feature",
+      "mode": "100644",
+      "gitBlob": "e60ba5bf2d071f7face9afc100337ea46c826947",
+      "bytes": 645,
+      "sha256": "9396c93d457e4bae2cf6e86c7e06e9e446993094aa052f0116ca5d2f2b68e135"
+    },
+    {
+      "path": "tests/basic_mode.feature",
+      "mode": "100644",
+      "gitBlob": "eb2bcc9c8047e2c0317f54c4bc0572133fd73b69",
+      "bytes": 2416,
+      "sha256": "be06b2c2466b83ac6686d08a6220ab325c4f4be8eb553d28e1f62154d107f87a"
+    },
+    {
+      "path": "tests/common_steps.py",
+      "mode": "100644",
+      "gitBlob": "2b8450428a835bc9f822be1c495858d864d577e2",
+      "bytes": 5170,
+      "sha256": "05421feb1e291d9b01fdc51a459e9ebd627433b6d770258df361f2b1034857f9"
+    },
+    {
+      "path": "tests/environment.py",
+      "mode": "100644",
+      "gitBlob": "16daca1df986ddac3a37ab5d4569eaea1ebc092b",
+      "bytes": 1704,
+      "sha256": "4f00c8addb39cfa0f3922e8e9508d42c85f9b9dd7281b4076ac027a4f4cbae87"
+    },
+    {
+      "path": "tests/financial_mode.feature",
+      "mode": "100644",
+      "gitBlob": "4c0ae82a16a3b257aacdab414d2a33173039f4fb",
+      "bytes": 649,
+      "sha256": "22f5e6da7f4eeb0f2523331d4cb03e7097522d68d40c569799a363d6b71cb681"
+    },
+    {
+      "path": "tests/gcalc-parsing.vala",
+      "mode": "100644",
+      "gitBlob": "19294c4f9c6913667de3b2babfade10f11def20a",
+      "bytes": 49193,
+      "sha256": "3773085cdcecb17103daa317b6885a309648191b28633604f69789e743d1243a"
+    },
+    {
+      "path": "tests/gcalc-solving-basic.vala",
+      "mode": "100644",
+      "gitBlob": "3b8b9a3a085e4da86ac66594544d5f74b9b7c8f5",
+      "bytes": 62519,
+      "sha256": "b905b81039a35ab1cd380cffeff8ffabfaa2274f8ab86f7e7a70b5bd224200d0"
+    },
+    {
+      "path": "tests/gci-test-entry-controller.ui",
+      "mode": "100644",
+      "gitBlob": "4747c6aa3c07e43b5db399c89a15e9096bac00f0",
+      "bytes": 2175,
+      "sha256": "de09d18cfeea579b72390db3fe357597c8435a120cbc9d319159443cda6c4fa0"
+    },
+    {
+      "path": "tests/meson.build",
+      "mode": "100644",
+      "gitBlob": "f9c4f1a72bc41af1d477d6f2d81b7519b36407ac",
+      "bytes": 2737,
+      "sha256": "3a8d917855aed72b9a2f273f5521169f2c5cd95cf5e48d454c602765be5040f8"
+    },
+    {
+      "path": "tests/programming_mode.feature",
+      "mode": "100644",
+      "gitBlob": "5a6ccf79b4282b75b183acc70caa82980e642a00",
+      "bytes": 657,
+      "sha256": "0929d7b81b8dbdaa8b3c4c24142c9b9e5a8fcdd7883afcf25950e9ae9ad19054"
+    },
+    {
+      "path": "tests/steps/steps.py",
+      "mode": "100644",
+      "gitBlob": "624c98389c18595d674b3e186bacda734ddd5657",
+      "bytes": 1678,
+      "sha256": "d1e4bb211e1b55607b01d4fcbe7e29264766ee37d0994b474f69f23fabeeedd6"
+    },
+    {
+      "path": "tests/test-currency-providers.vala",
+      "mode": "100644",
+      "gitBlob": "7bde4b37ea17025cbee21c86861cc44ccac9336e",
+      "bytes": 5133,
+      "sha256": "96580908e0867672e8dcd4e44a8306333c48fc4491e7eb396a25f0e3190a28b4"
+    },
+    {
+      "path": "tests/test-entry-controller.gresource.xml",
+      "mode": "100644",
+      "gitBlob": "e8ca34dac50fa65eeba36c05a9b638e225414508",
+      "bytes": 201,
+      "sha256": "50691f599aea4b535d43d71d880415354bd888a7a7e55ddb8c10fdc1d90effa7"
+    },
+    {
+      "path": "tests/test-equation.vala",
+      "mode": "100644",
+      "gitBlob": "d2e6806af5bb67c60f64e4f40dfd1d09c3ac77ef",
+      "bytes": 33851,
+      "sha256": "b9f1ac575a6ccdb60548b746f8dac7af148f8fddada36854d5686e4978045ba4"
+    },
+    {
+      "path": "tests/test-gci-entry-controller.vala",
+      "mode": "100644",
+      "gitBlob": "d42f605eaa15253e2b606f7045d77db922a24fe6",
+      "bytes": 2149,
+      "sha256": "94a45c35b4e7eb37ed2ca42e83b84dee7df0bb4ed2cd9022926f1a32db3f4dec"
+    },
+    {
+      "path": "tests/test-number.vala",
+      "mode": "100644",
+      "gitBlob": "3426ce64665e15bb3f198647072eb46015ee10f3",
+      "bytes": 29070,
+      "sha256": "4acc3ea311efc3b5bc922738a828d0086353123bd8b89852ef9be8a212c8e836"
+    },
+    {
+      "path": "tests/test-serializer.vala",
+      "mode": "100644",
+      "gitBlob": "62d7d6a8e70a2bb6b152303caa2f335113f69552",
+      "bytes": 7029,
+      "sha256": "299aaa0ac9f22977120ef9ce095b12319d9f3997130a329fdecc30a2d4321008"
+    },
+    {
+      "path": "vapi/config.vapi",
+      "mode": "100644",
+      "gitBlob": "a1bb094d01963f6e92eb4e781e441944a7b0863c",
+      "bytes": 98,
+      "sha256": "b91df372541cef5a6551feb81c070202252c58d365584ab13dbbdba12474cd41"
+    },
+    {
+      "path": "vapi/meson.build",
+      "mode": "100644",
+      "gitBlob": "b2bdaf44006e96c5b7e5bdd3c05a273e9d69e2a5",
+      "bytes": 40,
+      "sha256": "26765491b650bccdd69fc525ee1aa9ef0c60a8fd2e0a7a142579d2bafd6ffd12"
+    },
+    {
+      "path": "vapi/mpc.vapi",
+      "mode": "100644",
+      "gitBlob": "bc8183446e6170395163063177dbbc12fa8a56bb",
+      "bytes": 6586,
+      "sha256": "c2c8b8ae3e9274706853a97c20d2fb7fb9b23e1939aa08d784ac114750aa90f7"
+    },
+    {
+      "path": "vapi/mpfr.vapi",
+      "mode": "100644",
+      "gitBlob": "52b80441dda4e636cdfd22eea4d1ff452d80f2c4",
+      "bytes": 5776,
+      "sha256": "b526750b3f93b0ddc1d5b8fedfd5357fd00d5579e6420f261337397141a451fb"
+    }
+  ],
+  "bytes": 10728675,
+  "case_collisions": 0,
+  "symlinks_submodules": 0,
+  "source_and_dependency_code_executed": false,
+  "installed_local_dependencies": false
+}
